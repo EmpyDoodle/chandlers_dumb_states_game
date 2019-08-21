@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.expand_path('../lib', File.dirname(__FILE__)))
+require 'cdsg'
+
+region, capitals = ARGV
+if region.nil? || !CDSG.regions.include?(region)
+  loop do
+    puts 'Please select a region from the list below:'
+    CDSG.regions.each { |r| puts(" + #{r}") }
+    region = gets.chomp
+    break if CDSG.regions.include?(region)
+  end
+end
+if capitals.nil?
+  puts 'Would you like to play in Capitals mode?'
+  gets.chomp =~ /\A[yY]\z/ ? capitals = true : capitals = false
+end
+
+game = CDSG.new(region, capitals)
+game.play  

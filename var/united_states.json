@@ -1,0 +1,252 @@
+{
+  "Alabama": {
+    "abbreviation": "AL",
+    "aliases": [],
+    "capital": "Montgomery"
+  },
+  "Alaska": {
+    "abbreviation": "AS",
+    "aliases": [],
+    "capital": "Juneau"
+  },
+  "Arizona": {
+    "abbreviation": "AZ",
+    "aliases": [],
+    "capital": "Phoenix"
+  },
+  "Arkansas": {
+    "abbreviation": "AR",
+    "aliases": [],
+    "capital": "Little Rock"
+  },
+  "California": {
+    "abbreviation": "CA",
+    "aliases": [],
+    "capital": "Sacramento"
+  },
+  "Colorado": {
+    "abbreviation": "CO",
+    "aliases": [],
+    "capital": "Denver"
+  },
+  "Conneticut": {
+    "abbreviation": "CT",
+    "aliases": [],
+    "capital": "Hartford"
+  },
+  "Delaware": {
+    "abbreviation": "DE",
+    "aliases": [],
+    "capital": "Dover"
+  },
+  "Florida": {
+    "abbreviation": "FL",
+    "aliases": [],
+    "capital": "Tallahassee"
+  },
+  "Georgia": {
+    "abbreviation": "GA",
+    "aliases": [],
+    "capital": "Atlanta"
+  },
+  "Hawaii": {
+    "abbreviation": "HI",
+    "aliases": [],
+    "capital": "Honolulu"
+  },
+  "Idaho": {
+    "abbreviation": "ID",
+    "aliases": [],
+    "capital": "Boise"
+  },
+  "Illinois": {
+    "abbreviation": "IL",
+    "aliases": [],
+    "capital": "Springfield"
+  },
+  "Indiana": {
+    "abbreviation": "IN",
+    "aliases": [],
+    "capital": "Indianapolis"
+  },
+  "Iowa": {
+    "abbreviation": "IA",
+    "aliases": [],
+    "capital": "Des Moines"
+  },
+  "Kansas": {
+    "abbreviation": "KS",
+    "aliases": [],
+    "capital": "Topeka"
+  },
+  "Kentucky": {
+    "abbreviation": "KY",
+    "aliases": [],
+    "capital": "Frankfort"
+  },
+  "Louisiana": {
+    "abbreviation": "LA",
+    "aliases": [],
+    "capital": "Baton Rouge"
+  },
+  "Maine": {
+    "abbreviation": "ME",
+    "aliases": [],
+    "capital": "Augusta"
+  },
+  "Maryland": {
+    "abbreviation": "MD",
+    "aliases": [],
+    "capital": "Annapolis"
+  },
+  "Massachusetts": {
+    "abbreviation": "MA",
+    "aliases": [],
+    "capital": "Boston"
+  },
+  "Michigan": {
+    "abbreviation": "MI",
+    "aliases": [],
+    "capital": "Lansing"
+  },
+  "Minnesota": {
+    "abbreviation": "MN",
+    "aliases": [],
+    "capital": "Saint Paul"
+  },
+  "Mississippi": {
+    "abbreviation": "MS",
+    "aliases": [],
+    "capital": "Jackson"
+  },
+  "Missouri": {
+    "abbreviation": "MO",
+    "aliases": [],
+    "capital": "Jefferson City"
+  },
+  "Montana": {
+    "abbreviation": "MT",
+    "aliases": [],
+    "capital": "Helena"
+  },
+  "Nebraska": {
+    "abbreviation": "NE",
+    "aliases": [],
+    "capital": "Lincoln"
+  },
+  "Nevada": {
+    "abbreviation": "NV",
+    "aliases": [],
+    "capital": "Carson City"
+  },
+  "New Hampshire": {
+    "abbreviation": "NH",
+    "aliases": [],
+    "capital": "Concord"
+  },
+  "New Jersey": {
+    "abbreviation": "NJ",
+    "aliases": [],
+    "capital": "Trenton"
+  },
+  "New Mexico": {
+    "abbreviation": "NM",
+    "aliases": [],
+    "capital": "Santa Fe"
+  },
+  "New York": {
+    "abbreviation": "NY",
+    "aliases": [],
+    "capital": "Albany"
+  },
+  "North Carolina": {
+    "abbreviation": "NC",
+    "aliases": [],
+    "capital": "Raleigh"
+  },
+  "North Dakota": {
+    "abbreviation": "ND",
+    "aliases": [],
+    "capital": "Bismarck"
+  },
+  "Ohio": {
+    "abbreviation": "OH",
+    "aliases": [],
+    "capital": "Columbus"
+  },
+  "Oklahoma": {
+    "abbreviation": "OK",
+    "aliases": [],
+    "capital": "Oklahoma City"
+  },
+  "Oregon": {
+    "abbreviation": "OR",
+    "aliases": [],
+    "capital": "Salem"
+  },
+  "Pennsylvania": {
+    "abbreviation": "PA",
+    "aliases": [],
+    "capital": "Harrisburg"
+  },
+  "Rhode Island": {
+    "abbreviation": "RI",
+    "aliases": [],
+    "capital": "Providence"
+  },
+  "South Carolina": {
+    "abbreviation": "SC",
+    "aliases": [],
+    "capital": "Columbia"
+  },
+  "South Dakota": {
+    "abbreviation": "SD",
+    "aliases": [],
+    "capital": "Pierre"
+  },
+  "Tennessee": {
+    "abbreviation": "TN",
+    "aliases": [],
+    "capital": "Nashville"
+  },
+  "Texas": {
+    "abbreviation": "TX",
+    "aliases": [],
+    "capital": "Austin"
+  },
+  "Utah": {
+    "abbreviation": "UT",
+    "aliases": [],
+    "capital": "Salt Lake City"
+  },
+  "Vermont": {
+    "abbreviation": "VT",
+    "aliases": [],
+    "capital": "Montpelier"
+  },
+  "Virginia": {
+    "abbreviation": "VA",
+    "aliases": [],
+    "capital": "Richmond"
+  },
+  "Washington": {
+    "abbreviation": "WA",
+    "aliases": [],
+    "capital": "Olympia"
+  },
+  "West Virginia": {
+    "abbreviation": "WV",
+    "aliases": [],
+    "capital": "Charleston"
+  },
+  "Wisconsin": {
+    "abbreviation": "WI",
+    "aliases": [],
+    "capital": "Madison"
+  },
+  "Wyoming": {
+    "abbreviation": "WY",
+    "aliases": [],
+    "capital": "Cheyenne"
+  }
+}

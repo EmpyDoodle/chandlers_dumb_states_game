@@ -1,0 +1,257 @@
+{
+  "Albania": {
+    "abbreviation": "AL",
+    "aliases": [],
+    "capital": "Tirana"
+  },
+  "Andorra": {
+    "abbreviation": "AD",
+    "aliases": [],
+    "capital": "Andorra La Vella"
+  },
+  "Armenia": {
+    "abbreviation": "AM",
+    "aliases": [],
+    "capital": "Yerevan"
+  },
+  "Austria": {
+    "abbreviation": "AT",
+    "aliases": [],
+    "capital": "Vienna"
+  },
+  "Azerbaijan": {
+    "abbreviation": "AZ",
+    "aliases": [],
+    "capital": "Baku"
+  },
+  "Belarus": {
+    "abbreviation": "BY",
+    "aliases": [],
+    "capital": "Minsk"
+  },
+  "Belgium": {
+    "abbreviation": "BE",
+    "aliases": [],
+    "capital": "Brussels"
+  },
+  "Bosnia and Herzegovina": {
+    "abbreviation": "BA",
+    "aliases": ["Bosnia", "Herzegovina"],
+    "capital": "Sarajevo"
+  },
+  "Bulgaria": {
+    "abbreviation": "BG",
+    "aliases": [],
+    "capital": "Sofia"
+  },
+  "Croatia": {
+    "abbreviation": "HR",
+    "aliases": [],
+    "capital": "Zagreb"
+  },
+  "Cyprus": {
+    "abbreviation": "CY",
+    "aliases": [],
+    "capital": "Nicosia"
+  },
+  "Czechia": {
+    "abbreviation": "CZ",
+    "aliases": ["Czech Republic"],
+    "capital": "Prague"
+  },
+  "Denmark": {
+    "abbreviation": "DK",
+    "aliases": [],
+    "capital": "Copenhagen"
+  },
+  "Estonia": {
+    "abbreviation": "EE",
+    "aliases": [],
+    "capital": "Tallinn"
+  },
+  "Finland": {
+    "abbreviation": "FI",
+    "aliases": [],
+    "capital": "Helsinki"
+  },
+  "France": {
+    "abbreviation": "FR",
+    "aliases": [],
+    "capital": "Paris"
+  },
+  "Georgia": {
+    "abbreviation": "GE",
+    "aliases": [],
+    "capital": "Tbilisi"
+  },
+  "Germany": {
+    "abbreviation": "DE",
+    "aliases": [],
+    "capital": "Berlin"
+  },
+  "Greece": {
+    "abbreviation": "GR",
+    "aliases": [],
+    "capital": "Athens"
+  },
+  "Holy See": {
+    "abbreviation": "VA",
+    "aliases": ["Vatican City"],
+    "capital": "Vatican City"
+  },
+  "Hungary": {
+    "abbreviation": "HU",
+    "aliases": [],
+    "capital": "Budapest"
+  },
+  "Iceland": {
+    "abbreviation": "IS",
+    "aliases": [],
+    "capital": "Reykjavik"
+  },
+  "Ireland": {
+    "abbreviation": "IE",
+    "aliases": [],
+    "capital": "Dublin"
+  },
+  "Italy": {
+    "abbreviation": "IT",
+    "aliases": [],
+    "capital": "Rome"
+  },
+  "Kazakhstan": {
+    "abbreviation": "KZ",
+    "aliases": [],
+    "capital": "Nur-Sultan"
+  },
+  "Kosovo": {
+    "abbreviation": "KS",
+    "aliases": [],
+    "capital": "Pristina"
+  },
+  "Latvia": {
+    "abbreviation": "LV",
+    "aliases": [],
+    "capital": "Riga"
+  },
+  "Lichtenstein": {
+    "abbreviation": "LI",
+    "aliases": [],
+    "capital": "Vaduz"
+  },
+  "Lithuania": {
+    "abbreviation": "LT",
+    "aliases": [],
+    "capital": "Vilnius"
+  },
+  "Luxembourg": {
+    "abbreviation": "LU",
+    "aliases": [],
+    "capital": "Luxembourg"
+  },
+  "Malta": {
+    "abbreviation": "ML",
+    "aliases": [],
+    "capital": "Valletta"
+  },
+  "Moldova": {
+    "abbreviation": "MD",
+    "aliases": [],
+    "capital": "Chisinau"
+  },
+  "Monaco": {
+    "abbreviation": "MC",
+    "aliases": [],
+    "capital": "Monaco"
+  },
+  "Montenegro": {
+    "abbreviation": "ME",
+    "aliases": [],
+    "capital": "Podgorica"
+  },
+  "Netherlands": {
+    "abbreviation": "NL",
+    "aliases": [],
+    "capital": "Amsterdam"
+  },
+  "North Macedonia": {
+    "abbreviation": "MK",
+    "aliases": ["Macedonia"],
+    "capital": "Skopje"
+  },
+  "Norway": {
+    "abbreviation": "NO",
+    "aliases": [],
+    "capital": "Oslo"
+  },
+  "Poland": {
+    "abbreviation": "PL",
+    "aliases": [],
+    "capital": "Warsaw"
+  },
+  "Portugal": {
+    "abbreviation": "PT",
+    "aliases": [],
+    "capital": "Lisbon"
+  },
+  "Romania": {
+    "abbreviation": "RO",
+    "aliases": [],
+    "capital": "Bucharest"
+  },
+  "Russia": {
+    "abbreviation": "RU",
+    "aliases": ["Russian Federation"],
+    "capital": "Moscow"
+  },
+  "San Marino": {
+    "abbreviation": "SM",
+    "aliases": [],
+    "capital": "San Marino"
+  },
+  "Serbia": {
+    "abbreviation": "RS",
+    "aliases": [],
+    "capital": "Belgrade"
+  },
+  "Slovakia": {
+    "abbreviation": "SK",
+    "aliases": [],
+    "capital": "Bratislava"
+  },
+  "Slovenia": {
+    "abbreviation": "SI",
+    "aliases": [],
+    "capital": "Ljubljana"
+  },
+  "Spain": {
+    "abbreviation": "ES",
+    "aliases": [],
+    "capital": "Madrid"
+  },
+  "Sweden": {
+    "abbreviation": "SE",
+    "aliases": [],
+    "capital": "Stockholm"
+  },
+  "Switzerland": {
+    "abbreviation": "CH",
+    "aliases": [],
+    "capital": "Bern"
+  },
+  "Turkey": {
+    "abbreviation": "TR",
+    "aliases": [],
+    "capital": "Ankara"
+  },
+  "Ukraine": {
+    "abbreviation": "UA",
+    "aliases": [],
+    "capital": "Kiev"
+  },
+  "United Kingdom": {
+    "abbreviation": "UK",
+    "aliases": [],
+    "capital": "London"
+  }
+}
