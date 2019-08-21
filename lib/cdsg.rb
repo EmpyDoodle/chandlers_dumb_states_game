@@ -62,7 +62,7 @@ class CDSG
     if str =~ /\A(progress|results|answers)\z/
       puts ''
       puts ('------------ RESULTS ------------')
-      @results.each { |r| puts "+ #{r.to_s.chomp}"}
+      @results.sort.each { |r| puts "+ #{r.to_s.chomp}"}
       puts ('---------------------------------')
       true
     else
@@ -105,20 +105,17 @@ class CDSG
 
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
-    @data.each_key.shuffle.to_a.each do |k|
-      loop do
-        puts "What is the capital of #{k}?"
-        guess = gets.chomp
-        break if quit?(guess)
-        next if game_progress(guess)
-        result = correct_capital?(guess, k)
-        if result
-          puts "* [CORRECT] --- #{result} *"
-          @results << { k => result }
-        else
-          puts '* [INCORRECT] *'
-        end
-        break if @results.size == @data.size
+    @data.each_key.to_a.shuffle.each do |k|
+      puts "What is the capital of #{k}?"
+      guess = gets.chomp
+      break if quit?(guess)
+      game_progress(guess)
+      result = correct_capital?(guess, k)
+      if result
+        puts "* [CORRECT] --- #{result} *"
+        @results << { k => result }
+      else
+        puts '* [INCORRECT] *'
       end
     end
     game_outro
