@@ -45,6 +45,7 @@ class CDSG
   end
 
   def help()
+    puts ''
     puts '************* How to Play *************'
     puts 'Type one answer into the terminal and hit Enter'
     puts 'You will be told whether it is correct or not'
@@ -54,6 +55,7 @@ class CDSG
     puts "To see your progress so far, enter 'progress'"
     puts "To skip to the next state, enter 'skip' or 'next'" if @capitals_mode
     puts '***************************************'
+    puts ''
     true
   end
 
@@ -62,7 +64,10 @@ class CDSG
     if str =~ /\A(progress|results|answers)\z/
       puts ''
       puts ('------------ RESULTS ------------')
-      @results.sort.each { |r| puts "+ #{r.to_s.chomp}"}
+      puts "You achieved *** #{@results.length} / #{@data.length} ***"
+      puts ''
+      @res\ults.sort.each { |r| puts "+ #{r.to_s.chomp}"}
+      puts ''
       puts ('---------------------------------')
       true
     else
@@ -79,9 +84,10 @@ class CDSG
     puts ''
     puts '************* Game Finished *************'
     puts "Thank you for play Chandler's dumb states game"
-    puts "You achieved *** #{@results.length} / #{@data.length}"
     puts '*****************************************'
     game_progress('results')
+    @data.each_key.to_a.select { |c| !@results.include?(c) }.each { |c| puts "- #{c.to_s.chomp}"}
+    puts ('---------------------------------')
   end
 
   def play()
@@ -98,6 +104,7 @@ class CDSG
       else
         puts '* [INCORRECT] *'
       end
+      puts ''
       break if @results.size == @data.size
     end
     game_outro
@@ -106,6 +113,7 @@ class CDSG
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
     @data.each_key.to_a.shuffle.each do |k|
+     puts ''
       puts "What is the capital of #{k}?"
       guess = gets.chomp
       break if quit?(guess)
