@@ -66,8 +66,11 @@ class CDSG
       puts ('------------ RESULTS ------------')
       puts "You achieved *** #{@results.length} / #{@data.length} ***"
       puts ''
-      @res\ults.sort.each { |r| puts "+ #{r.to_s.chomp}"}
-      puts ''
+      if @capitals_mode
+        @results.sort_by { |hash| hash.keys }.each { |hash| puts "+ #{hash.values.first} is the capital of #{hash.keys.first}" }
+      else
+        @results.sort.each { |r| puts "+ #{r.to_s.chomp}"}
+      end
       puts ('---------------------------------')
       true
     else
@@ -86,7 +89,11 @@ class CDSG
     puts "Thank you for play Chandler's dumb states game"
     puts '*****************************************'
     game_progress('results')
-    @data.each_key.to_a.select { |c| !@results.include?(c) }.each { |c| puts "- #{c.to_s.chomp}"}
+    if @capitals_mode
+      @data.select { |k,v| !@results.include?(k) }.each { |k,v| puts "- #{v['capital']} is the capital of #{k}"}
+    else
+      @data.each_key.to_a.select { |c| !@results.include?(c) }.each { |c| puts "- #{c.to_s.chomp}"}
+    end
     puts ('---------------------------------')
   end
 
@@ -94,6 +101,7 @@ class CDSG
     game_intro
     return play_capitals if @capitals_mode
     loop do
+      puts ''
       guess = gets.chomp
       break if quit?(guess)
       next if game_progress(guess)
@@ -104,7 +112,6 @@ class CDSG
       else
         puts '* [INCORRECT] *'
       end
-      puts ''
       break if @results.size == @data.size
     end
     game_outro
@@ -113,11 +120,15 @@ class CDSG
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
     @data.each_key.to_a.shuffle.each do |k|
-     puts ''
-      puts "What is the capital of #{k}?"
-      guess = gets.chomp
-      break if quit?(guess)
-      game_progress(guess)
+      begin
+        puts ''
+        puts "What is the capital of #{k}?"
+        guess = gets.chomp
+        break if quit?(guess)
+        raise '' if game_progress(guess)
+      rescue
+        retry
+      end
       result = correct_capital?(guess, k)
       if result
         puts "* [CORRECT] --- #{result} *"
