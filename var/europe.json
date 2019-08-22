@@ -1,257 +1,380 @@
 {
+  "Aland Islands": {
+    "abbreviation": "AX",
+    "aliases": ["Aland"],
+    "independent": false,
+    "capital": "Mariehamn"
+  },
   "Albania": {
     "abbreviation": "AL",
     "aliases": [],
+    "independent": true,
     "capital": "Tirana"
+  },
+  "Akrotiri and Dhekelia": {
+    "abbreviation": "#",
+    "aliases": ["Akrotiri", "Dhekelia"],
+    "independent": false,
+    "capital": "Episkopi"
   },
   "Andorra": {
     "abbreviation": "AD",
     "aliases": [],
+    "independent": true,
     "capital": "Andorra La Vella"
   },
   "Armenia": {
     "abbreviation": "AM",
     "aliases": [],
+    "independent": true,
     "capital": "Yerevan"
   },
   "Austria": {
     "abbreviation": "AT",
     "aliases": [],
+    "independent": true,
     "capital": "Vienna"
   },
   "Azerbaijan": {
     "abbreviation": "AZ",
     "aliases": [],
+    "independent": true,
     "capital": "Baku"
   },
   "Belarus": {
     "abbreviation": "BY",
     "aliases": [],
+    "independent": true,
     "capital": "Minsk"
   },
   "Belgium": {
     "abbreviation": "BE",
     "aliases": [],
+    "independent": true,
     "capital": "Brussels"
   },
   "Bosnia and Herzegovina": {
     "abbreviation": "BA",
     "aliases": ["Bosnia", "Herzegovina"],
+    "independent": true,
     "capital": "Sarajevo"
   },
   "Bulgaria": {
     "abbreviation": "BG",
     "aliases": [],
+    "independent": true,
     "capital": "Sofia"
   },
   "Croatia": {
     "abbreviation": "HR",
     "aliases": [],
+    "independent": true,
     "capital": "Zagreb"
   },
   "Cyprus": {
     "abbreviation": "CY",
     "aliases": [],
+    "independent": true,
     "capital": "Nicosia"
   },
   "Czechia": {
     "abbreviation": "CZ",
     "aliases": ["Czech Republic"],
+    "independent": true,
     "capital": "Prague"
   },
   "Denmark": {
     "abbreviation": "DK",
     "aliases": [],
+    "independent": true,
     "capital": "Copenhagen"
+  },
+  "England": {
+    "abbreviation": "GB-ENG",
+    "aliases": [],
+    "independent": false,
+    "capital": "London"
   },
   "Estonia": {
     "abbreviation": "EE",
     "aliases": [],
+    "independent": true,
     "capital": "Tallinn"
   },
   "Finland": {
     "abbreviation": "FI",
     "aliases": [],
+    "independent": true,
     "capital": "Helsinki"
   },
   "France": {
     "abbreviation": "FR",
     "aliases": [],
+    "independent": true,
     "capital": "Paris"
   },
   "Georgia": {
     "abbreviation": "GE",
     "aliases": [],
+    "independent": true,
     "capital": "Tbilisi"
   },
   "Germany": {
     "abbreviation": "DE",
     "aliases": [],
+    "independent": true,
     "capital": "Berlin"
   },
   "Greece": {
     "abbreviation": "GR",
     "aliases": [],
+    "independent": true,
     "capital": "Athens"
   },
   "Holy See": {
     "abbreviation": "VA",
     "aliases": ["Vatican City"],
+    "independent": true,
     "capital": "Vatican City"
   },
   "Hungary": {
     "abbreviation": "HU",
     "aliases": [],
+    "independent": true,
     "capital": "Budapest"
   },
   "Iceland": {
     "abbreviation": "IS",
     "aliases": [],
+    "independent": true,
     "capital": "Reykjavik"
   },
   "Ireland": {
     "abbreviation": "IE",
     "aliases": [],
+    "independent": true,
     "capital": "Dublin"
   },
   "Italy": {
     "abbreviation": "IT",
     "aliases": [],
+    "independent": true,
     "capital": "Rome"
+  },
+  "Faroe Islands": {
+    "abbreviation": "FO",
+    "aliases": ["Faeroe Islands"],
+    "independent": false,
+    "capital": "Torshavn"
+  },
+  "Gibraltar": {
+    "abbreviation": "GI",
+    "aliases": [],
+    "independent": false,
+    "capital": "Gibraltar"
+  },
+  "Guernsey": {
+    "abbreviation": "GG",
+    "aliases": [],
+    "independent": false,
+    "capital": "#"
+  },
+  "Isle of Man": {
+    "abbreviation": "IM",
+    "aliases": ["Isle of Mann", "Mann"],
+    "independent": false,
+    "capital": "Douglas"
+  },
+  "Jersey": {
+    "abbreviation": "JE",
+    "aliases": [],
+    "independent": false,
+    "capital": "Saint Helier"
   },
   "Kazakhstan": {
     "abbreviation": "KZ",
     "aliases": [],
+    "independent": true,
     "capital": "Nur-Sultan"
   },
   "Kosovo": {
     "abbreviation": "KS",
     "aliases": [],
+    "independent": true,
     "capital": "Pristina"
   },
   "Latvia": {
     "abbreviation": "LV",
     "aliases": [],
+    "independent": true,
     "capital": "Riga"
   },
   "Lichtenstein": {
     "abbreviation": "LI",
     "aliases": [],
+    "independent": true,
     "capital": "Vaduz"
   },
   "Lithuania": {
     "abbreviation": "LT",
     "aliases": [],
+    "independent": true,
     "capital": "Vilnius"
   },
   "Luxembourg": {
     "abbreviation": "LU",
     "aliases": [],
+    "independent": true,
     "capital": "Luxembourg"
   },
   "Malta": {
     "abbreviation": "ML",
     "aliases": [],
+    "independent": true,
     "capital": "Valletta"
   },
   "Moldova": {
     "abbreviation": "MD",
     "aliases": [],
+    "independent": true,
     "capital": "Chisinau"
   },
   "Monaco": {
     "abbreviation": "MC",
     "aliases": [],
+    "independent": true,
     "capital": "Monaco"
   },
   "Montenegro": {
     "abbreviation": "ME",
     "aliases": [],
+    "independent": true,
     "capital": "Podgorica"
   },
   "Netherlands": {
     "abbreviation": "NL",
     "aliases": [],
+    "independent": true,
     "capital": "Amsterdam"
   },
   "North Macedonia": {
     "abbreviation": "MK",
     "aliases": ["Macedonia"],
+    "independent": true,
     "capital": "Skopje"
+  },
+  "Northern Ireland": {
+    "abbreviation": "GB-NIR",
+    "aliases": [],
+    "independent": false,
+    "capital": "Belfast"
   },
   "Norway": {
     "abbreviation": "NO",
     "aliases": [],
+    "independent": true,
     "capital": "Oslo"
   },
   "Poland": {
     "abbreviation": "PL",
     "aliases": [],
+    "independent": true,
     "capital": "Warsaw"
   },
   "Portugal": {
     "abbreviation": "PT",
     "aliases": [],
+    "independent": true,
     "capital": "Lisbon"
   },
   "Romania": {
     "abbreviation": "RO",
     "aliases": [],
+    "independent": true,
     "capital": "Bucharest"
   },
   "Russia": {
     "abbreviation": "RU",
     "aliases": ["Russian Federation"],
+    "independent": true,
     "capital": "Moscow"
   },
   "San Marino": {
     "abbreviation": "SM",
     "aliases": [],
+    "independent": true,
     "capital": "San Marino"
+  },
+  "Scotland": {
+    "abbreviation": "GB-SCT",
+    "aliases": [],
+    "independent": false,
+    "capital": "Edinburgh"
   },
   "Serbia": {
     "abbreviation": "RS",
     "aliases": [],
+    "independent": true,
     "capital": "Belgrade"
   },
   "Slovakia": {
     "abbreviation": "SK",
     "aliases": [],
+    "independent": true,
     "capital": "Bratislava"
   },
   "Slovenia": {
     "abbreviation": "SI",
     "aliases": [],
+    "independent": true,
     "capital": "Ljubljana"
   },
   "Spain": {
     "abbreviation": "ES",
     "aliases": [],
+    "independent": true,
     "capital": "Madrid"
+  },
+  "Svalbard": {
+    "abbreviation": "#",
+    "aliases": ["Spitsbergen"],
+    "independent": false,
+    "capital": "#"
   },
   "Sweden": {
     "abbreviation": "SE",
     "aliases": [],
+    "independent": true,
     "capital": "Stockholm"
   },
   "Switzerland": {
     "abbreviation": "CH",
     "aliases": [],
+    "independent": true,
     "capital": "Bern"
   },
   "Turkey": {
     "abbreviation": "TR",
     "aliases": [],
+    "independent": true,
     "capital": "Ankara"
   },
   "Ukraine": {
     "abbreviation": "UA",
     "aliases": [],
+    "independent": true,
     "capital": "Kiev"
   },
   "United Kingdom": {
     "abbreviation": "UK",
     "aliases": [],
+    "independent": true,
     "capital": "London"
+  },
+  "Wales": {
+    "abbreviation": "GB-WLS",
+    "aliases": [],
+    "independent": false,
+    "capital": "Cardiff"
   }
 }

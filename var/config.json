@@ -1,0 +1,29 @@
+{
+  "game_modes":
+  {
+    "africa": {
+      "capitals_mode": true
+    },
+    "asia": {
+      "capitals_mode": true
+    },
+    "europe": {
+      "capitals_mode": true
+    },
+    "oceania": {
+      "capitals_mode": true
+    },
+    "north_america": {
+      "capitals_mode": true
+    },
+    "south_america": {
+      "capitals_mode": true
+    },
+    "uk_counties": {
+      "capitals_mode": false
+    },
+    "united_states": {
+      "capitals_mode": true
+    }
+  }
+}

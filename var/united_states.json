@@ -2,251 +2,307 @@
   "Alabama": {
     "abbreviation": "AL",
     "aliases": [],
+    "independent": true,
     "capital": "Montgomery"
   },
   "Alaska": {
     "abbreviation": "AS",
     "aliases": [],
+    "independent": true,
     "capital": "Juneau"
   },
   "Arizona": {
     "abbreviation": "AZ",
     "aliases": [],
+    "independent": true,
     "capital": "Phoenix"
   },
   "Arkansas": {
     "abbreviation": "AR",
     "aliases": [],
+    "independent": true,
     "capital": "Little Rock"
   },
   "California": {
     "abbreviation": "CA",
     "aliases": [],
+    "independent": true,
     "capital": "Sacramento"
   },
   "Colorado": {
     "abbreviation": "CO",
     "aliases": [],
+    "independent": true,
     "capital": "Denver"
   },
   "Conneticut": {
     "abbreviation": "CT",
     "aliases": [],
+    "independent": true,
     "capital": "Hartford"
   },
   "Delaware": {
     "abbreviation": "DE",
     "aliases": [],
+    "independent": true,
     "capital": "Dover"
+  },
+  "District of Columbia": {
+    "abbreviation": "DC",
+    "aliases": [],
+    "independent": true,
+    "capital": "Washington"
   },
   "Florida": {
     "abbreviation": "FL",
     "aliases": [],
+    "independent": true,
     "capital": "Tallahassee"
   },
   "Georgia": {
     "abbreviation": "GA",
     "aliases": [],
+    "independent": true,
     "capital": "Atlanta"
   },
   "Hawaii": {
     "abbreviation": "HI",
     "aliases": [],
+    "independent": true,
     "capital": "Honolulu"
   },
   "Idaho": {
     "abbreviation": "ID",
     "aliases": [],
+    "independent": true,
     "capital": "Boise"
   },
   "Illinois": {
     "abbreviation": "IL",
     "aliases": [],
+    "independent": true,
     "capital": "Springfield"
   },
   "Indiana": {
     "abbreviation": "IN",
     "aliases": [],
+    "independent": true,
     "capital": "Indianapolis"
   },
   "Iowa": {
     "abbreviation": "IA",
     "aliases": [],
+    "independent": true,
     "capital": "Des Moines"
   },
   "Kansas": {
     "abbreviation": "KS",
     "aliases": [],
+    "independent": true,
     "capital": "Topeka"
   },
   "Kentucky": {
     "abbreviation": "KY",
     "aliases": [],
+    "independent": true,
     "capital": "Frankfort"
   },
   "Louisiana": {
     "abbreviation": "LA",
     "aliases": [],
+    "independent": true,
     "capital": "Baton Rouge"
   },
   "Maine": {
     "abbreviation": "ME",
     "aliases": [],
+    "independent": true,
     "capital": "Augusta"
   },
   "Maryland": {
     "abbreviation": "MD",
     "aliases": [],
+    "independent": true,
     "capital": "Annapolis"
   },
   "Massachusetts": {
     "abbreviation": "MA",
     "aliases": [],
+    "independent": true,
     "capital": "Boston"
   },
   "Michigan": {
     "abbreviation": "MI",
     "aliases": [],
+    "independent": true,
     "capital": "Lansing"
   },
   "Minnesota": {
     "abbreviation": "MN",
     "aliases": [],
+    "independent": true,
     "capital": "Saint Paul"
   },
   "Mississippi": {
     "abbreviation": "MS",
     "aliases": [],
+    "independent": true,
     "capital": "Jackson"
   },
   "Missouri": {
     "abbreviation": "MO",
     "aliases": [],
+    "independent": true,
     "capital": "Jefferson City"
   },
   "Montana": {
     "abbreviation": "MT",
     "aliases": [],
+    "independent": true,
     "capital": "Helena"
   },
   "Nebraska": {
     "abbreviation": "NE",
     "aliases": [],
+    "independent": true,
     "capital": "Lincoln"
   },
   "Nevada": {
     "abbreviation": "NV",
     "aliases": [],
+    "independent": true,
     "capital": "Carson City"
   },
   "New Hampshire": {
     "abbreviation": "NH",
     "aliases": [],
+    "independent": true,
     "capital": "Concord"
   },
   "New Jersey": {
     "abbreviation": "NJ",
     "aliases": [],
+    "independent": true,
     "capital": "Trenton"
   },
   "New Mexico": {
     "abbreviation": "NM",
     "aliases": [],
+    "independent": true,
     "capital": "Santa Fe"
   },
   "New York": {
     "abbreviation": "NY",
     "aliases": [],
+    "independent": true,
     "capital": "Albany"
   },
   "North Carolina": {
     "abbreviation": "NC",
     "aliases": [],
+    "independent": true,
     "capital": "Raleigh"
   },
   "North Dakota": {
     "abbreviation": "ND",
     "aliases": [],
+    "independent": true,
     "capital": "Bismarck"
   },
   "Ohio": {
     "abbreviation": "OH",
     "aliases": [],
+    "independent": true,
     "capital": "Columbus"
   },
   "Oklahoma": {
     "abbreviation": "OK",
     "aliases": [],
+    "independent": true,
     "capital": "Oklahoma City"
   },
   "Oregon": {
     "abbreviation": "OR",
     "aliases": [],
+    "independent": true,
     "capital": "Salem"
   },
   "Pennsylvania": {
     "abbreviation": "PA",
     "aliases": [],
+    "independent": true,
     "capital": "Harrisburg"
   },
   "Rhode Island": {
     "abbreviation": "RI",
     "aliases": [],
+    "independent": true,
     "capital": "Providence"
   },
   "South Carolina": {
     "abbreviation": "SC",
     "aliases": [],
+    "independent": true,
     "capital": "Columbia"
   },
   "South Dakota": {
     "abbreviation": "SD",
     "aliases": [],
+    "independent": true,
     "capital": "Pierre"
   },
   "Tennessee": {
     "abbreviation": "TN",
     "aliases": [],
+    "independent": true,
     "capital": "Nashville"
   },
   "Texas": {
     "abbreviation": "TX",
     "aliases": [],
+    "independent": true,
     "capital": "Austin"
   },
   "Utah": {
     "abbreviation": "UT",
     "aliases": [],
+    "independent": true,
     "capital": "Salt Lake City"
   },
   "Vermont": {
     "abbreviation": "VT",
     "aliases": [],
+    "independent": true,
     "capital": "Montpelier"
   },
   "Virginia": {
     "abbreviation": "VA",
     "aliases": [],
+    "independent": true,
     "capital": "Richmond"
   },
   "Washington": {
     "abbreviation": "WA",
     "aliases": [],
+    "independent": true,
     "capital": "Olympia"
   },
   "West Virginia": {
     "abbreviation": "WV",
     "aliases": [],
+    "independent": true,
     "capital": "Charleston"
   },
   "Wisconsin": {
     "abbreviation": "WI",
     "aliases": [],
+    "independent": true,
     "capital": "Madison"
   },
   "Wyoming": {
     "abbreviation": "WY",
     "aliases": [],
+    "independent": true,
     "capital": "Cheyenne"
   }
 }

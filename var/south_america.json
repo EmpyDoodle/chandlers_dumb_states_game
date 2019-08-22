@@ -1,0 +1,92 @@
+{
+  "Argentina": {
+  "abbreviation": "AR",
+  "aliases": [],
+  "independent": true,
+  "capital": "Buenos Aires"
+},
+  "Bolivia": {
+    "abbreviation": "BO",
+    "aliases": [],
+    "independent": true,
+    "capital": "La Paz"
+  },
+  "Brazil": {
+    "abbreviation": "BR",
+    "aliases": [],
+    "independent": true,
+    "capital": "Brasilia"
+  },
+  "Chile": {
+    "abbreviation": "CL",
+    "aliases": [],
+    "independent": true,
+    "capital": "Santiago"
+  },
+  "Colombia": {
+    "abbreviation": "CO",
+    "aliases": [],
+    "independent": true,
+    "capital": "Bogota"
+  },
+  "Ecuador": {
+    "abbreviation": "EC",
+    "aliases": [],
+    "independent": true,
+    "capital": "Quito"
+  },
+  "Falkland Islands": {
+    "abbreviation": "FK",
+    "aliases": ["Falklands"],
+    "independent": false,
+    "capital": "Stanley"
+  },
+  "French Guiana": {
+    "abbreviation": "GF",
+    "aliases": ["Guiana"],
+    "independent": false,
+    "capital": "Cayenne"
+  },
+  "Guyana": {
+    "abbreviation": "GY",
+    "aliases": [],
+    "independent": true,
+    "capital": "Georgetown"
+  },
+  "Paraguay": {
+    "abbreviation": "PY",
+    "aliases": [],
+    "independent": true,
+    "capital": "Asuncion"
+  },
+  "Peru": {
+    "abbreviation": "PE",
+    "aliases": [],
+    "independent": true,
+    "capital": "Lima"
+  },
+  "South Georgia and the Sandwich Islands": {
+    "abbreviation": "GS",
+    "aliases": ["South Georgia", "Sandwich Islands"],
+    "independent": false,
+    "capital": "King Edward Point"
+  },
+  "Suriname": {
+    "abbreviation": "SR",
+    "aliases": [],
+    "independent": true,
+    "capital": "Paramaribo"
+  },
+  "Uruguay": {
+    "abbreviation": "UY",
+    "aliases": [],
+    "independent": true,
+    "capital": "Montevideo"
+  },
+  "Venezuela": {
+    "abbreviation": "VE",
+    "aliases": [],
+    "independent": true,
+    "capital": "Caracas"
+  }
+}

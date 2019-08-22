@@ -1,0 +1,344 @@
+{
+  "Afghanistan": {
+    "abbreviation": "AF",
+    "aliases": [],
+    "independent": true,
+    "capital": "Kabul"
+  },
+  "Akrotiri and Dhekelia": {
+    "abbreviation": "#",
+    "aliases": ["Akrotiri", "Dhekelia"],
+    "independent": false,
+    "capital": "Episkopi"
+  },
+  "Armenia": {
+    "abbreviation": "AM",
+    "aliases": [],
+    "independent": true,
+    "capital": "Yerevan"
+  },
+  "Azerbaijan": {
+    "abbreviation": "AZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Baku"
+  },
+  "Bahrain": {
+    "abbreviation": "BH",
+    "aliases": [],
+    "independent": true,
+    "capital": "Manama"
+  },
+  "Bangladesh": {
+    "abbreviation": "BD",
+    "aliases": [],
+    "independent": true,
+    "capital": "Dhaka"
+  },
+  "Bhutan": {
+    "abbreviation": "BT",
+    "aliases": [],
+    "independent": true,
+    "capital": "Thimphu"
+  },
+  "British Indian Ocean Territory": {
+    "abbreviation": "IO",
+    "aliases": ["BIOT", "Indian Ocean Territory"],
+    "independent": false,
+    "capital": "Camp Justice"
+  },
+  "Brunei": {
+    "abbreviation": "BN",
+    "aliases": [],
+    "independent": true,
+    "capital": "Bandar Seri Begawan"
+  },
+  "Cambodia": {
+    "abbreviation": "KH",
+    "aliases": ["Khmer"],
+    "independent": true,
+    "capital": "Phnom Penh"
+  },
+  "China": {
+    "abbreviation": "CN",
+    "aliases": ["People's Republic of China", "PRC"],
+    "independent": true,
+    "capital": "Beijing"
+  },
+  "Christmas Island": {
+    "abbreviation": "CX",
+    "aliases": [],
+    "independent": false,
+    "capital": "Flying Fish Cove"
+  },
+  "Cocos Islands": {
+    "abbreviation": "CC",
+    "aliases": ["Keeling Islands"],
+    "independent": false,
+    "capital": "West Island"
+  },
+  "East Timor": {
+    "abbreviation": "TL",
+    "aliases": ["Timor-Leste"],
+    "independent": true,
+    "capital": "Dili"
+  },
+  "Egypt": {
+    "abbreviation": "EG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Cairo"
+  },
+  "Georgia": {
+    "abbreviation": "GE",
+    "aliases": [],
+    "independent": true,
+    "capital": "Tbilisi"
+  },
+  "Hong Kong": {
+    "abbreviation": "HK",
+    "aliases": [],
+    "independent": false,
+    "capital": "Hong Kong"
+  },
+  "India": {
+    "abbreviation": "IN",
+    "aliases": [],
+    "independent": true,
+    "capital": "New Delhi"
+  },
+  "Indonesia": {
+    "abbreviation": "ID",
+    "aliases": [],
+    "independent": true,
+    "capital": "Jakarta"
+  },
+  "Iran": {
+    "abbreviation": "IR",
+    "aliases": ["Persia"],
+    "independent": true,
+    "capital": "Tehran"
+  },
+  "Iraq": {
+    "abbreviation": "IQ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Baghdad"
+  },
+  "Israel": {
+    "abbreviation": "IL",
+    "aliases": [],
+    "independent": true,
+    "capital": "Jerusalem"
+  },
+  "Japan": {
+    "abbreviation": "JP",
+    "aliases": [],
+    "independent": true,
+    "capital": "Tokyo"
+  },
+  "Jordan": {
+    "abbreviation": "JO",
+    "aliases": ["Hashemite Kingdom of Jordan"],
+    "independent": true,
+    "capital": "Amman"
+  },
+  "Kazakhstan": {
+    "abbreviation": "KZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Nur-Sultan"
+  },
+  "Kuwait": {
+    "abbreviation": "KW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Kuwait City"
+  },
+  "Kyrgyzstan": {
+    "abbreviation": "KG",
+    "aliases": ["Kirghizia"],
+    "independent": true,
+    "capital": "Bishkek"
+  },
+  "Laos": {
+    "abbreviation": "LA",
+    "aliases": ["Muang Lao"],
+    "independent": true,
+    "capital": "Vientiane"
+  },
+  "Lebanon": {
+    "abbreviation": "LB",
+    "aliases": ["The Lebanon", "Lebanese Republic"],
+    "independent": true,
+    "capital": "Beirut"
+  },
+  "Macau": {
+    "abbreviation": "MO",
+    "aliases": [],
+    "independent": false,
+    "capital": "Macau"
+  },
+  "Malaysia": {
+    "abbreviation": "MY",
+    "aliases": ["Malay", "Malaya"],
+    "independent": true,
+    "capital": "Kuala Lumpur"
+  },
+  "Maldives": {
+    "abbreviation": "MV",
+    "aliases": ["The Maldives"],
+    "independent": true,
+    "capital": "Male"
+  },
+  "Mongolia": {
+    "abbreviation": "MN",
+    "aliases": [],
+    "independent": true,
+    "capital": "Ulaanbaatar"
+  },
+  "Myanmar": {
+    "abbreviation": "MM",
+    "aliases": ["Burma"],
+    "independent": true,
+    "capital": "Naypyidaw"
+  },
+  "Nepal": {
+    "abbreviation": "NP",
+    "aliases": [],
+    "independent": true,
+    "capital": "Kathmandu"
+  },
+  "North Korea": {
+    "abbreviation": "KP",
+    "aliases": ["Democratic People's Republic of Korea", "DPRK"],
+    "independent": true,
+    "capital": "Pyongyang"
+  },
+  "Oman": {
+    "abbreviation": "OM",
+    "aliases": [],
+    "independent": true,
+    "capital": "Muscat"
+  },
+  "Pakistan": {
+    "abbreviation": "PK",
+    "aliases": [],
+    "independent": true,
+    "capital": "Islamabad"
+  },
+  "Palestine": {
+    "abbreviation": "PS",
+    "aliases": [],
+    "independent": true,
+    "capital": "Jerusalem"
+  },
+  "Papua New Guinea": {
+    "abbreviation": "PG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Port Moresby"
+  },
+  "Philippines": {
+    "abbreviation": "PH",
+    "aliases": [],
+    "independent": true,
+    "capital": "Manila"
+  },
+  "Qatar": {
+    "abbreviation": "QA",
+    "aliases": [],
+    "independent": true,
+    "capital": "Doha"
+  },
+  "Russia": {
+    "abbreviation": "RU",
+    "aliases": [],
+    "independent": true,
+    "capital": "Moscow"
+  },
+  "Saudi Arabia": {
+    "abbreviation": "SA",
+    "aliases": [],
+    "independent": true,
+    "capital": "Riyadh"
+  },
+  "Singapore": {
+    "abbreviation": "SG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Singapore"
+  },
+  "South Korea": {
+    "abbreviation": "KR",
+    "aliases": ["Republic of Korea", "RK"],
+    "independent": true,
+    "capital": "Seoul"
+  },
+  "Sri Lanka": {
+    "abbreviation": "LK",
+    "aliases": [],
+    "independent": true,
+    "capital": "Colombo"
+  },
+  "Syria": {
+    "abbreviation": "SY",
+    "aliases": ["Syrian Arab Republic"],
+    "independent": true,
+    "capital": "Damascus"
+  },
+  "Taiwan": {
+    "abbreviation": "TW",
+    "aliases": ["Republic of China", "ROC"],
+    "independent": true,
+    "capital": "Taipei"
+  },
+  "Tajikistan": {
+    "abbreviation": "TJ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Dushanbe"
+  },
+  "Thailand": {
+    "abbreviation": "TH",
+    "aliases": ["Siam"],
+    "independent": true,
+    "capital": "Bangkok"
+  },
+  "Turkey": {
+    "abbreviation": "TR",
+    "aliases": [],
+    "independent": true,
+    "capital": "Ankara"
+  },
+  "Turkmenistan": {
+    "abbreviation": "TM",
+    "aliases": [],
+    "independent": true,
+    "capital": "Ashgabat"
+  },
+  "United Arab Emirates": {
+    "abbreviation": "AE",
+    "aliases": ["Emirates", "The Emirates", "UAE"],
+    "independent": true,
+    "capital": "Abu Dhabi"
+  },
+  "Uzbekistan": {
+    "abbreviation": "UZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Tashkent"
+  },
+  "Vietnam": {
+    "abbreviation": "VN",
+    "aliases": ["Indochina"],
+    "independent": true,
+    "capital": "Hanoi"
+  },
+  "Yemen": {
+    "abbreviation": "YE",
+    "aliases": [],
+    "independent": true,
+    "capital": "Sana'a"
+  }
+}

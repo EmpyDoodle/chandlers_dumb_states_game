@@ -3,22 +3,24 @@
 $LOAD_PATH.unshift(File.expand_path('../lib', File.dirname(__FILE__)))
 require 'cdsg'
 
-region = ARGV[0]
-unless region && CDSG.regions.include?(region)
-  loop do
-    puts 'Please select a region from the list below:'
-    (1..CDSG.regions.size).to_a.each { |i| puts(" #{i} | #{CDSG.regions[i - 1]}") }
-    region = gets.chomp
-    if region =~ /\d/
-      region = CDSG.regions[region.to_i - 1]
-      break if region
-    else
-      break if CDSG.regions.include?(region)
-    end
+puts "*** Welcome to Chandler's Dumb States Game ***"
+CDSG.help
+
+region, hard_mode = [String.new, false]
+loop do
+  puts 'Please select a region from the list below:'
+  (1..CDSG.regions.size).to_a.each { |i| puts(" #{i} | #{CDSG.regions[i - 1]}") }
+  region = gets.chomp
+  hard_mode = true if region.include?('X')
+  if region =~ /(\d)(.?)/
+    region = CDSG.regions[region.to_i - 1]
+    break if region
+  else
+    break if CDSG.regions.include?(region)
   end
 end
 
 puts 'Would you like to play in Capitals mode?'
 gets.chomp =~ /\A[yY]\z/ ? capitals = true : capitals = false
-game = CDSG.new(region, capitals)
+game = CDSG.new(region, capitals, hard_mode)
 game.play
