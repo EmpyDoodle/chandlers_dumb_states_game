@@ -6,18 +6,20 @@ $app_root = File.expand_path('..', File.dirname(__FILE__))
 
 class CDSG
 
-  def initialize(region, capitals = false)
+  def initialize(region, capitals = false, hard = false)
     @app_root = $app_root
     @config = JSON.parse(File.read(File.join(@app_root, 'var', 'config.json')))
     @data = JSON.parse(File.read(File.join(@app_root, 'var', region + '.json')))
     @results = Array.new
     @region = region
     @capitals_mode = capitals
+    @hard_mode = hard
+    @data.delete_if { |k,v| v['independent'] == false } unless @hard_mode
   end
 
   def self.regions()
     @config = @config || JSON.parse(File.read(File.join($app_root, 'var', 'config.json')))
-    @config['game_modes'].each_key { |k| }
+    @config['game_modes'].each_key.to_a
   end
 
   def match_guess(guess, answer)
