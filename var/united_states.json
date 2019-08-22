@@ -47,6 +47,12 @@
     "independent": true,
     "capital": "Dover"
   },
+  "District of Columbia": {
+    "abbreviation": "DC",
+    "aliases": [],
+    "independent": true,
+    "capital": "Washington"
+  },
   "Florida": {
     "abbreviation": "FL",
     "aliases": [],

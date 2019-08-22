@@ -6,11 +6,12 @@ $app_root = File.expand_path('..', File.dirname(__FILE__))
 
 class CDSG
 
+ attr_accessor :results
+
   def initialize(region, capitals = false, hard = false)
     @app_root = $app_root
     @config = JSON.parse(File.read(File.join(@app_root, 'var', 'config.json')))
     @data = JSON.parse(File.read(File.join(@app_root, 'var', region + '.json')))
-    @results = Array.new
     @region = region
     @capitals_mode = capitals
     @hard_mode = hard
@@ -23,7 +24,8 @@ class CDSG
   end
 
   def match_guess(guess, answer)
-    guess.downcase.gsub(/(\.|\')/, '').gsub('-', ' ') == answer.downcase.gsub(/(\.|\')/, '').gsub('-', ' ') ? answer : false
+    ## Needs improving to allow imperfect spelling!
+    guess.downcase.gsub(/(\.|\')/, '').gsub('-', ' ').gsub(/\A[sS][tT]/, 'Saint') == answer.downcase.gsub(/(\.|\')/, '').gsub('-', ' ') ? answer : false
     #return answer if guess.downcase == answer.downcase
     #rexpr = guess.chars.map { |c| "(#{c}?)"}
     #(guess.chars.map { |c| answer.downcase.include?(c.downcase) }.count(true)) >= answer.length / 2 ? answer : false
@@ -48,7 +50,7 @@ class CDSG
     str =~ /\A([qQ]|quit|exit)\z/ ? true : false
   end
 
-  def help()
+  def self.help()
     puts ''
     puts '************* How to Play *************'
     puts 'Type one answer into the terminal and hit Enter'
@@ -64,14 +66,14 @@ class CDSG
   end
 
   def game_progress(str)
-    return help() if str =~ /\A([hH]|help)\z/
+    return CDSG.help() if str =~ /\A([hH]|help)\z/
     if str =~ /\A(progress|results|answers)\z/
       puts ''
       puts ('------------ RESULTS ------------')
       puts "You achieved *** #{@results.length} / #{@data.length} ***"
       puts ''
       if @capitals_mode
-        @results.sort_by { |hash| hash.keys }.each { |hash| puts "+ #{hash.values.first} is the capital of #{hash.keys.first}" }
+        @results.sort_by { |k, v| k }.each { |k,v| puts "+ #{v} is the capital of #{k}" }
       else
         @results.sort.each { |r| puts "+ #{r.to_s.chomp}"}
       end
@@ -90,11 +92,11 @@ class CDSG
   def game_outro()
     puts ''
     puts '************* Game Finished *************'
-    puts "Thank you for play Chandler's dumb states game"
+    puts "Thank you for playing Chandler's dumb states game"
     puts '*****************************************'
     game_progress('results')
     if @capitals_mode
-      @data.select { |k,v| !@results.include?(k) }.each { |k,v| puts "- #{v['capital']} is the capital of #{k}"}
+      @data.select { |k,v| !@results.keys.to_a.include?(k) }.each { |k,v| puts "- #{v['capital']} is the capital of #{k}"}
     else
       @data.each_key.to_a.select { |c| !@results.include?(c) }.each { |c| puts "- #{c.to_s.chomp}"}
     end
@@ -104,6 +106,7 @@ class CDSG
   def play()
     game_intro
     return play_capitals if @capitals_mode
+    @results = Array.new
     loop do
       puts ''
       guess = gets.chomp
@@ -123,6 +126,7 @@ class CDSG
 
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
+    @results = Hash.new
     @data.each_key.to_a.select { |d| @data[d]['capital'] != '#' }.shuffle.each do |k|
       begin
         puts ''
@@ -136,9 +140,9 @@ class CDSG
       result = correct_capital?(guess, k)
       if result
         puts "* [CORRECT] --- #{result} *"
-        @results << { k => result }
+        @results[k] = result
       else
-        puts '* [INCORRECT] *'
+        puts "* [INCORRECT] --- The answer is #{@data[k]['capital']} *"
       end
     end
     game_outro
