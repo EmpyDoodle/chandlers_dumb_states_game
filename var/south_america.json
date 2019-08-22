@@ -2,91 +2,91 @@
   "Argentina": {
   "abbreviation": "AR",
   "aliases": [],
-  "dependent": false,
+  "independent": true,
   "capital": "Buenos Aires"
 },
   "Bolivia": {
     "abbreviation": "BO",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "La Paz"
   },
   "Brazil": {
     "abbreviation": "BR",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Brasilia"
   },
   "Chile": {
     "abbreviation": "CL",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Santiago"
   },
   "Colombia": {
     "abbreviation": "CO",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Bogota"
   },
   "Ecudaor": {
     "abbreviation": "EC",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Quito"
   },
   "Falkland Islands": {
     "abbreviation": "FK",
     "aliases": ["Falklands"],
-    "dependent": true,
+    "independent": false,
     "capital": "Stanley"
   },
   "French Guiana": {
     "abbreviation": "GF",
     "aliases": ["Guiana"],
-    "dependent": false,
+    "independent": false,
     "capital": "Cayenne"
   },
   "Guyana": {
     "abbreviation": "GY",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Georgetown"
   },
   "Paraguay": {
     "abbreviation": "PY",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Asuncion"
   },
   "Peru": {
     "abbreviation": "PE",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Lima"
   },
   "South Georgia and the Sandwich Islands": {
     "abbreviation": "GS",
     "aliases": ["South Georgia", "Sandwich Islands"],
-    "dependent": true,
+    "independent": false,
     "capital": "King Edward Point"
   },
   "Suriname": {
     "abbreviation": "SR",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Paramaribo"
   },
   "Uruguay": {
     "abbreviation": "UY",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Montevideo"
   },
   "Venezuela": {
     "abbreviation": "VE",
     "aliases": [],
-    "dependent": false,
+    "independent": true,
     "capital": "Caracas"
   }
 }

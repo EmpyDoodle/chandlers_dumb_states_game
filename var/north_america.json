@@ -2,231 +2,277 @@
   "Anguilla": {
     "abbreviation": "AI",
     "aliases": [],
+    "independent": false,
     "capital": "The Valley"
   },
   "Antigua and Barbuda": {
     "abbreviation": "ag",
     "aliases": ["Antigua", "Barbuda"],
+    "independent": true,
     "capital": "St. John's"
   },
   "Aruba": {
     "abbreviation": "AW",
     "aliases": [],
+    "independent": false,
     "capital": "Oranjestad"
   },
   "The Bahamas": {
     "abbreviation": "BS",
     "aliases": ["Bahamas"],
+    "independent": true,
     "capital": "Nassau"
   },
   "Barbados": {
     "abbreviation": "BB",
     "aliases": [],
+    "independent": true,
     "capital": "Bridgetown"
   },
   "Belize": {
     "abbreviation": "BZ",
     "aliases": [],
+    "independent": true,
     "capital": "Belmopan"
   },
   "Bermuda": {
     "abbreviation": "BM",
     "aliases": [],
+    "independent": false,
     "capital": "Hamilton"
   },
   "Bonaire": {
     "abbreviation": "#",
     "aliases": [],
+    "independent": false,
     "capital": "Kralendijk"
   },
   "British Virgin Islands": {
     "abbreviation": "VG",
     "aliases": ["GB Virgin Islands", "Virgin Islands"],
+    "independent": false,
     "capital": "Road Town"
   },
   "Canada": {
     "abbreviation": "CA",
     "aliases": [],
+    "independent": true,
     "capital": "Ottowa"
   },
   "Cayman Islands": {
     "abbreviation": "KY",
     "aliases": [],
+    "independent": false,
     "capital": "George Town"
   },
   "Costa Rica": {
     "abbreviation": "CR",
     "aliases": [],
+    "independent": true,
     "capital": "San Jose"
   },
   "Cuba": {
     "abbreviation": "CU",
     "aliases": [],
+    "independent": true,
     "capital": "Havana"
   },
   "Curacao": {
     "abbreviation": "CW",
     "aliases": [],
+    "independent": false,
     "capital": "Willemstad"
   },
   "Dominica": {
     "abbreviation": "DM",
     "aliases": [],
+    "independent": true,
     "capital": "Roseau"
   },
   "Dominican Republic": {
     "abbreviation": "DO",
     "aliases": [],
+    "independent": true,
     "capital": "Santa Domingo"
   },
   "El Salvador": {
     "abbreviation": "SV",
     "aliases": [],
+    "independent": true,
     "capital": "San Salvador"
   },
   "Federal Dependencies of Venezuela": {
     "abbreviation": "#",
     "aliases": ["Venezuela"],
+    "independent": false,
     "capital": "Gran Roque"
   },
   "Greenland": {
     "abbreviation": "GL",
     "aliases": [],
+    "independent": false,
     "capital": "Nuuk"
   },
   "Grenada": {
     "abbreviation": "GD",
     "aliases": [],
+    "independent": true,
     "capital": "St. George's"
   },
   "Guadeloupe": {
     "abbreviation": "GP",
     "aliases": [],
+    "independent": false,
     "capital": "Basse-Terre"
   },
   "Guatemala": {
     "abbreviation": "GT",
     "aliases": [],
+    "independent": true,
     "capital": "Guatemala City"
   },
   "Haiti": {
     "abbreviation": "HT",
     "aliases": [],
+    "independent": true,
     "capital": "Port-au-Prince"
   },
   "Honduras": {
     "abbreviation": "HN",
     "aliases": [],
+    "independent": true,
     "capital": "Tegucigalpa"
   },
   "Jamaica": {
     "abbreviation": "JM",
     "aliases": [],
+    "independent": true,
     "capital": "Kingston"
   },
   "Martinique": {
     "abbreviation": "MQ",
     "aliases": [],
+    "independent": false,
     "capital": "Fort-de-France"
   },
   "Mexico": {
     "abbreviation": "MX",
     "aliases": [],
+    "independent": true,
     "capital": "Mexico City"
   },
   "Montserrat": {
     "abbreviation": "MS",
     "aliases": [],
+    "independent": false,
     "capital": "Plymouth"
   },
   "Nicaragua": {
     "abbreviation": "NI",
     "aliases": [],
+    "independent": true,
     "capital": "Managua"
   },
   "Nueva Esparta": {
     "abbreviation": "#",
     "aliases": [],
+    "independent": false,
     "capital": "La Asuncion"
   },
   "Panama": {
     "abbreviation": "PA",
     "aliases": [],
+    "independent": true,
     "capital": "Panama City"
   },
   "Puerto Rico": {
     "abbreviation": "PR",
     "aliases": [],
+    "independent": false,
     "capital": "San Juan"
   },
   "Saba": {
     "abbreviation": "#",
     "aliases": [],
+    "independent": false,
     "capital": "The Bottom"
   },
   "San Andres and Providencia": {
     "abbreviation": "#",
     "aliases": ["San Andres", "Providencia"],
+    "independent": false,
     "capital": "San Andres"
   },
   "Saint Barthelemy": {
     "abbreviation": "BL",
     "aliases": ["Saint Barths", "Saint Barts"],
+    "independent": false,
     "capital": "Gustavia"
   },
   "Saint Kitts and Nevis": {
     "abbreviation": "KN",
     "aliases": ["Saint Kitts", "Nevis"],
+    "independent": true,
     "capital": "Basseterre"
   },
   "Saint Lucia": {
     "abbreviation": "Castries",
     "aliases": [],
+    "independent": true,
     "capital": "LC"
   },
   "Saint Martin": {
     "abbreviation": "MF",
     "aliases": ["Collectivity of Saint Martin"],
+    "independent": false,
     "capital": "Marigot"
   },
   "Sain Pierre and Miquelon": {
     "abbreviation": "PM",
     "aliases": ["Saint Pierre", "Miquelon"],
+    "independent": false,
     "capital": "Saint-Pierre"
   },
   "Saint Vincent and the Grenadines": {
     "abbreviation": "VC",
     "aliases": ["Saint Vincent", "Grenadines", "The Grenadines"],
+    "independent": true,
     "capital": "Kingstown"
   },
   "Sint Eustatius": {
     "abbreviation": "#",
     "aliases": [],
+    "independent": false,
     "capital": "Oranjestad"
   },
   "Sint Maarten": {
     "abbreviation": "SX",
     "aliases": [],
+    "independent": false,
     "capital": "Philipsburg"
   },
   "Trinidad and Tobago": {
     "abbreviation": "TT",
     "aliases": ["Trinidad", "Tobago"],
+    "independent": true,
     "capital": "Port of Spain"
   },
   "Turks and Caicos Islands": {
     "abbreviation": "TC",
     "aliases": ["Turks", "Turks Islands", "Caicos", "Caicos Islands"],
+    "independent": false,
     "capital": "Cockburn Town"
   },
   "United States": {
     "abbreviation": "US",
     "aliases": ["USA", "United States of America"],
+    "independent": true,
     "capital": "Washington"
   },
   "United States Virgin Islands": {
     "abbreviation": "VI",
     "aliases": ["US Virgin Islands", "Virgin Islands"],
+    "independent": false,
     "capital": "Charlotte Amalie"
   }
 }
