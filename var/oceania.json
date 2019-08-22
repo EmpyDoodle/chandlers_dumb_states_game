@@ -1,0 +1,222 @@
+{
+  "American Samoa": {
+    "abbreviation": "AS",
+    "aliases": [],
+    "independent": false,
+    "capital": "Pago Pago"
+  },
+  "Ashmore and Cartier Islands": {
+    "abbreviation": "#",
+    "aliases": [
+      "Ashmore Island",
+      "Cartier Island"
+    ],
+    "independent": false,
+    "capital": "#"
+  },
+  "Australia": {
+    "abbreviation": "AU",
+    "aliases": [],
+    "independent": true,
+    "capital": "Canberra"
+  },
+  "Cook Islands": {
+    "abbreviation": "CK",
+    "aliases": [],
+    "independent": true,
+    "capital": "Avarua"
+  },
+  "Coral Sea Islands": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "#"
+  },
+  "Easter Island": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "Hanga Roa"
+  },
+  "Federated States of Micronesia": {
+    "abbreviation": "FM",
+    "aliases": [
+      "Micronesia"
+    ],
+    "independent": true,
+    "capital": "Palikir"
+  },
+  "Fiji": {
+    "abbreviation": "FJ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Suva"
+  },
+  "French Polynesia": {
+    "abbreviation": "PF",
+    "aliases": [
+      "Polynesia"
+    ],
+    "independent": false,
+    "capital": "Papeete"
+  },
+  "Galapagos Islands": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "#"
+  },
+  "Guam": {
+    "abbreviation": "GU",
+    "aliases": [],
+    "independent": false,
+    "capital": "Hagatna"
+  },
+  "Hawaii": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "Honolulu"
+  },
+  "Kiribati": {
+    "abbreviation": "KI",
+    "aliases": [],
+    "independent": true,
+    "capital": "South Tarawa"
+  },
+  "Marshall Islands": {
+    "abbreviation": "MH",
+    "aliases": [],
+    "independent": true,
+    "capital": "Majuro"
+  },
+  "Nauru": {
+    "abbreviation": "NR",
+    "aliases": [],
+    "independent": true,
+    "capital": "Yaren"
+  },
+  "New Caledonia": {
+    "abbreviation": "NC",
+    "aliases": [],
+    "independent": false,
+    "capital": "Noumea"
+  },
+  "New Zealand": {
+    "abbreviation": "NZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Wellington"
+  },
+  "Niue": {
+    "abbreviation": "NU",
+    "aliases": [],
+    "independent": true,
+    "capital": "Alofi"
+  },
+  "Norfolk Island": {
+    "abbreviation": "NF",
+    "aliases": [],
+    "independent": false,
+    "capital": "Kingston"
+  },
+  "Northern Mariana Islands": {
+    "abbreviation": "MP",
+    "aliases": [
+      "Mariana Islands"
+    ],
+    "independent": false,
+    "capital": "Saipan"
+  },
+  "Palau": {
+    "abbreviation": "PW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Ngerulmud"
+  },
+  "Papua": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "Jayapura"
+  },
+  "Papua New Guinea": {
+    "abbreviation": "PG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Port Moresby"
+  },
+  "Pitcairn, Henderson, Ducie and Oeno Islands": {
+    "abbreviation": "PN",
+    "aliases": [
+      "Pitcairn Islands",
+      "Pitcarin Island",
+      "Henderson Island",
+      "Ducie Island",
+      "Oeno Island"
+    ],
+    "independent": false,
+    "capital": "Adamstown"
+  },
+  "Samoa": {
+    "abbreviation": "WS",
+    "aliases": [
+      "Western Samoa",
+      "West Samoa"
+    ],
+    "independent": true,
+    "capital": "Apia"
+  },
+  "Solomon Islands": {
+    "abbreviation": "SB",
+    "aliases": [
+      "British Solomon Islands"
+    ],
+    "independent": true,
+    "capital": "Honiara"
+  },
+  "Tokelau": {
+    "abbreviation": "TK",
+    "aliases": [],
+    "independent": false,
+    "capital": "Nukunonu"
+  },
+  "Tonga": {
+    "abbreviation": "TO",
+    "aliases": [],
+    "independent": true,
+    "capital": "Nuku'alofa"
+  },
+  "Tuvalu": {
+    "abbreviation": "TV",
+    "aliases": [
+      "Ellice Islands"
+    ],
+    "independent": true,
+    "capital": "Funafuti"
+  },
+  "Vanuatu": {
+    "abbreviation": "VU",
+    "aliases": [],
+    "independent": true,
+    "capital": "Port Vila"
+  },
+  "Wallis and Futuna": {
+    "abbreviation": "WF",
+    "aliases": [
+      "Wallis and Futuna Islands",
+      "Wallis Island",
+      "Futuna Island",
+      "Wallis",
+      "Futuna"
+    ],
+    "independent": false,
+    "capital": "Mata-Utu"
+  },
+  "West Papua": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "Manokwari"
+  }
+}

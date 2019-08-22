@@ -8,6 +8,7 @@ class CDSG
 
   def initialize(region, capitals = false)
     @app_root = $app_root
+    @config = JSON.parse(File.read(File.join(@app_root, 'var', 'config.json')))
     @data = JSON.parse(File.read(File.join(@app_root, 'var', region + '.json')))
     @results = Array.new
     @region = region
@@ -15,11 +16,12 @@ class CDSG
   end
 
   def self.regions()
-    Dir.entries(File.join($app_root, 'var')).delete_if { |e| e =~ /\A\.{1,2}\z/ }.map { |f| f.split('.').first }
+    @config = @config || JSON.parse(File.read(File.join($app_root, 'var', 'config.json')))
+    @config['game_modes'].each_key { |k| }
   end
 
   def match_guess(guess, answer)
-    guess.downcase == answer.downcase ? answer : false
+    guess.downcase.gsub(/(\.|\')/, '').gsub('-', ' ') == answer.downcase.gsub(/(\.|\')/, '').gsub('-', ' ') ? answer : false
     #return answer if guess.downcase == answer.downcase
     #rexpr = guess.chars.map { |c| "(#{c}?)"}
     #(guess.chars.map { |c| answer.downcase.include?(c.downcase) }.count(true)) >= answer.length / 2 ? answer : false
@@ -119,7 +121,7 @@ class CDSG
 
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
-    @data.each_key.to_a.shuffle.each do |k|
+    @data.each_key.to_a.select { |d| @data[d]['capital'] != '#' }.shuffle.each do |k|
       begin
         puts ''
         puts "What is the capital of #{k}?"

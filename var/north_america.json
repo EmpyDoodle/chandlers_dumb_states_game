@@ -1,0 +1,232 @@
+{
+  "Anguilla": {
+    "abbreviation": "AI",
+    "aliases": [],
+    "capital": "The Valley"
+  },
+  "Antigua and Barbuda": {
+    "abbreviation": "ag",
+    "aliases": ["Antigua", "Barbuda"],
+    "capital": "St. John's"
+  },
+  "Aruba": {
+    "abbreviation": "AW",
+    "aliases": [],
+    "capital": "Oranjestad"
+  },
+  "The Bahamas": {
+    "abbreviation": "BS",
+    "aliases": ["Bahamas"],
+    "capital": "Nassau"
+  },
+  "Barbados": {
+    "abbreviation": "BB",
+    "aliases": [],
+    "capital": "Bridgetown"
+  },
+  "Belize": {
+    "abbreviation": "BZ",
+    "aliases": [],
+    "capital": "Belmopan"
+  },
+  "Bermuda": {
+    "abbreviation": "BM",
+    "aliases": [],
+    "capital": "Hamilton"
+  },
+  "Bonaire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "capital": "Kralendijk"
+  },
+  "British Virgin Islands": {
+    "abbreviation": "VG",
+    "aliases": ["GB Virgin Islands", "Virgin Islands"],
+    "capital": "Road Town"
+  },
+  "Canada": {
+    "abbreviation": "CA",
+    "aliases": [],
+    "capital": "Ottowa"
+  },
+  "Cayman Islands": {
+    "abbreviation": "KY",
+    "aliases": [],
+    "capital": "George Town"
+  },
+  "Costa Rica": {
+    "abbreviation": "CR",
+    "aliases": [],
+    "capital": "San Jose"
+  },
+  "Cuba": {
+    "abbreviation": "CU",
+    "aliases": [],
+    "capital": "Havana"
+  },
+  "Curacao": {
+    "abbreviation": "CW",
+    "aliases": [],
+    "capital": "Willemstad"
+  },
+  "Dominica": {
+    "abbreviation": "DM",
+    "aliases": [],
+    "capital": "Roseau"
+  },
+  "Dominican Republic": {
+    "abbreviation": "DO",
+    "aliases": [],
+    "capital": "Santa Domingo"
+  },
+  "El Salvador": {
+    "abbreviation": "SV",
+    "aliases": [],
+    "capital": "San Salvador"
+  },
+  "Federal Dependencies of Venezuela": {
+    "abbreviation": "#",
+    "aliases": ["Venezuela"],
+    "capital": "Gran Roque"
+  },
+  "Greenland": {
+    "abbreviation": "GL",
+    "aliases": [],
+    "capital": "Nuuk"
+  },
+  "Grenada": {
+    "abbreviation": "GD",
+    "aliases": [],
+    "capital": "St. George's"
+  },
+  "Guadeloupe": {
+    "abbreviation": "GP",
+    "aliases": [],
+    "capital": "Basse-Terre"
+  },
+  "Guatemala": {
+    "abbreviation": "GT",
+    "aliases": [],
+    "capital": "Guatemala City"
+  },
+  "Haiti": {
+    "abbreviation": "HT",
+    "aliases": [],
+    "capital": "Port-au-Prince"
+  },
+  "Honduras": {
+    "abbreviation": "HN",
+    "aliases": [],
+    "capital": "Tegucigalpa"
+  },
+  "Jamaica": {
+    "abbreviation": "JM",
+    "aliases": [],
+    "capital": "Kingston"
+  },
+  "Martinique": {
+    "abbreviation": "MQ",
+    "aliases": [],
+    "capital": "Fort-de-France"
+  },
+  "Mexico": {
+    "abbreviation": "MX",
+    "aliases": [],
+    "capital": "Mexico City"
+  },
+  "Montserrat": {
+    "abbreviation": "MS",
+    "aliases": [],
+    "capital": "Plymouth"
+  },
+  "Nicaragua": {
+    "abbreviation": "NI",
+    "aliases": [],
+    "capital": "Managua"
+  },
+  "Nueva Esparta": {
+    "abbreviation": "#",
+    "aliases": [],
+    "capital": "La Asuncion"
+  },
+  "Panama": {
+    "abbreviation": "PA",
+    "aliases": [],
+    "capital": "Panama City"
+  },
+  "Puerto Rico": {
+    "abbreviation": "PR",
+    "aliases": [],
+    "capital": "San Juan"
+  },
+  "Saba": {
+    "abbreviation": "#",
+    "aliases": [],
+    "capital": "The Bottom"
+  },
+  "San Andres and Providencia": {
+    "abbreviation": "#",
+    "aliases": ["San Andres", "Providencia"],
+    "capital": "San Andres"
+  },
+  "Saint Barthelemy": {
+    "abbreviation": "BL",
+    "aliases": ["Saint Barths", "Saint Barts"],
+    "capital": "Gustavia"
+  },
+  "Saint Kitts and Nevis": {
+    "abbreviation": "KN",
+    "aliases": ["Saint Kitts", "Nevis"],
+    "capital": "Basseterre"
+  },
+  "Saint Lucia": {
+    "abbreviation": "Castries",
+    "aliases": [],
+    "capital": "LC"
+  },
+  "Saint Martin": {
+    "abbreviation": "MF",
+    "aliases": ["Collectivity of Saint Martin"],
+    "capital": "Marigot"
+  },
+  "Sain Pierre and Miquelon": {
+    "abbreviation": "PM",
+    "aliases": ["Saint Pierre", "Miquelon"],
+    "capital": "Saint-Pierre"
+  },
+  "Saint Vincent and the Grenadines": {
+    "abbreviation": "VC",
+    "aliases": ["Saint Vincent", "Grenadines", "The Grenadines"],
+    "capital": "Kingstown"
+  },
+  "Sint Eustatius": {
+    "abbreviation": "#",
+    "aliases": [],
+    "capital": "Oranjestad"
+  },
+  "Sint Maarten": {
+    "abbreviation": "SX",
+    "aliases": [],
+    "capital": "Philipsburg"
+  },
+  "Trinidad and Tobago": {
+    "abbreviation": "TT",
+    "aliases": ["Trinidad", "Tobago"],
+    "capital": "Port of Spain"
+  },
+  "Turks and Caicos Islands": {
+    "abbreviation": "TC",
+    "aliases": ["Turks", "Turks Islands", "Caicos", "Caicos Islands"],
+    "capital": "Cockburn Town"
+  },
+  "United States": {
+    "abbreviation": "US",
+    "aliases": ["USA", "United States of America"],
+    "capital": "Washington"
+  },
+  "United States Virgin Islands": {
+    "abbreviation": "VI",
+    "aliases": ["US Virgin Islands", "Virgin Islands"],
+    "capital": "Charlotte Amalie"
+  }
+}

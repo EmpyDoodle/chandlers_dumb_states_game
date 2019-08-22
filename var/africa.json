@@ -1,0 +1,429 @@
+{
+  "Algeria": {
+    "abbreviation": "DZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Algiers"
+  },
+  "Angola": {
+    "abbreviation": "AO",
+    "aliases": [],
+    "independent": true,
+    "capital": "Luanda"
+  },
+  "Benin": {
+    "abbreviation": "BJ",
+    "aliases": [
+      "Dahomey"
+    ],
+    "independent": true,
+    "capital": "Porto-Novo"
+  },
+  "Botswana": {
+    "abbreviation": "BW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Gaborone"
+  },
+  "Burkina Faso": {
+    "abbreviation": "BF",
+    "aliases": [],
+    "independent": true,
+    "capital": "Ouagadougou"
+  },
+  "Burundi": {
+    "abbreviation": "BI",
+    "aliases": [],
+    "independent": true,
+    "capital": "Bujumbura"
+  },
+  "Cameroon": {
+    "abbreviation": "CM",
+    "aliases": [],
+    "independent": true,
+    "capital": "Yaounde"
+  },
+  "Canary Islands": {
+    "abbreviation": "#",
+    "aliases": [
+      "El Hierro",
+      "Fuerteventura",
+      "Gran Canaria",
+      "La Gomera",
+      "Lanzarote",
+      "La Palma",
+      "Tenerife"
+    ],
+    "independent": false,
+    "capital": "Las Palmas"
+  },
+  "Cape Verde": {
+    "abbreviation": "CV",
+    "aliases": [
+      "Cabo Verde"
+    ],
+    "independent": true,
+    "capital": "Praia"
+  },
+  "Central Afican Republic": {
+    "abbreviation": "CF",
+    "aliases": [
+      "CAR"
+    ],
+    "independent": true,
+    "capital": "Bangui"
+  },
+  "Ceuta": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "#"
+  },
+  "Chad": {
+    "abbreviation": "TD",
+    "aliases": [],
+    "independent": true,
+    "capital": "N'Djamena"
+  },
+  "Comoros": {
+    "abbreviation": "KM",
+    "aliases": [],
+    "independent": true,
+    "capital": "Moroni"
+  },
+  "Cote d'Ivoire": {
+    "abbreviation": "Ivory Coast",
+    "aliases": [],
+    "independent": true,
+    "capital": "Abidjan"
+  },
+  "Democratic Republic of the Congo": {
+    "abbreviation": "CD",
+    "aliases": [
+      "Congo-Kinshasa",
+      "DRC",
+      "DROC",
+      "DR Congo",
+      "Democratic Republic of Congo",
+      "Democratic Congo"
+    ],
+    "independent": true,
+    "capital": "Kinshasa"
+  },
+  "Djibouti": {
+    "abbreviation": "DJ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Djibouti"
+  },
+  "Egypt": {
+    "abbreviation": "EG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Cairo"
+  },
+  "Equatorial Guinea": {
+    "abbreviation": "GQ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Malobo"
+  },
+  "Eritrea": {
+    "abbreviation": "ER",
+    "aliases": [],
+    "independent": true,
+    "capital": "Asmara"
+  },
+  "Eswatini": {
+    "abbreviation": "SZ",
+    "aliases": [
+      "Swaziland"
+    ],
+    "independent": true,
+    "capital": "Mbabane"
+  },
+  "Ethiopia": {
+    "abbreviation": "ET",
+    "aliases": [],
+    "independent": true,
+    "capital": "Addis Ababa"
+  },
+  "Gabon": {
+    "abbreviation": "GA",
+    "aliases": [],
+    "independent": true,
+    "capital": "Libreville"
+  },
+  "Gambia": {
+    "abbreviation": "BM",
+    "aliases": [
+      "The Gambia"
+    ],
+    "independent": true,
+    "capital": "Banjul"
+  },
+  "Ghana": {
+    "abbreviation": "GH",
+    "aliases": [],
+    "independent": true,
+    "capital": "Accra"
+  },
+  "Guinea": {
+    "abbreviation": "GN",
+    "aliases": [
+      "Guinea-Conakry"
+    ],
+    "independent": true,
+    "capital": "Conakry"
+  },
+  "Guinea-Bissau": {
+    "abbreviation": "GW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Bissau"
+  },
+  "Kenya": {
+    "abbreviation": "KE",
+    "aliases": [],
+    "independent": true,
+    "capital": "Nairobi"
+  },
+  "Lesotho": {
+    "abbreviation": "LS",
+    "aliases": [],
+    "independent": true,
+    "capital": "Maseru"
+  },
+  "Liberia": {
+    "abbreviation": "LR",
+    "aliases": [],
+    "independent": true,
+    "capital": "Monrovia"
+  },
+  "Libya": {
+    "abbreviation": "LY",
+    "aliases": [],
+    "independent": true,
+    "capital": "Tripoli"
+  },
+  "Madagascar": {
+    "abbreviation": "MG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Antananarivo"
+  },
+  "Madeira": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "Funchal"
+  },
+  "Malawi": {
+    "abbreviation": "MW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Lilongwe"
+  },
+  "Mali": {
+    "abbreviation": "ML",
+    "aliases": [],
+    "independent": true,
+    "capital": "Bamako"
+  },
+  "Mauritania": {
+    "abbreviation": "MU",
+    "aliases": [],
+    "independent": true,
+    "capital": "Nouakchott"
+  },
+  "Mauritius": {
+    "abbreviation": "MU",
+    "aliases": [],
+    "independent": true,
+    "capital": "Port Louis"
+  },
+  "Mayotte": {
+    "abbreviation": "YT",
+    "aliases": [],
+    "independent": false,
+    "capital": "Mamoudzou"
+  },
+  "Melilla": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": false,
+    "capital": "#"
+  },
+  "Morocco": {
+    "abbreviation": "MA",
+    "aliases": [],
+    "independent": true,
+    "capital": "Rabat"
+  },
+  "Mozambique": {
+    "abbreviation": "MZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Maputo"
+  },
+  "Namibia": {
+    "abbreviation": "NA",
+    "aliases": [],
+    "independent": true,
+    "capital": "Windhoek"
+  },
+  "Niger": {
+    "abbreviation": "NE",
+    "aliases": [
+      "The Niger"
+    ],
+    "independent": true,
+    "capital": "Niamey"
+  },
+  "Nigeria": {
+    "abbreviation": "NG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Abuja"
+  },
+  "Republic of the Congo": {
+    "abbreviation": "CG",
+    "aliases": [
+      "Congo-Brazzaville",
+      "ROC",
+      "Congo Republic",
+      "Republic of Congo",
+      "Congo",
+      "The Congo"
+    ],
+    "independent": true,
+    "capital": "Brazzaville"
+  },
+  "Reunion Island": {
+    "abbreviation": "RE",
+    "aliases": [
+      "Reunion"
+    ],
+    "independent": false,
+    "capital": "Saint Denis"
+  },
+  "Rwanda": {
+    "abbreviation": "RW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Kigali"
+  },
+  "Saint Helena, Ascension and Tristan da Cunha": {
+    "abbreviation": "SH",
+    "aliases": [
+      "Saint Helena",
+      "Ascension",
+      "Ascension Island",
+      "Tristan da Cunha"
+    ],
+    "independent": false,
+    "capital": "Jamestown"
+  },
+  "Sao Tome and Principe": {
+    "abbreviation": "ST",
+    "aliases": [
+      "Sao Tome",
+      "Principe"
+    ],
+    "independent": true,
+    "capital": "Sao Tome"
+  },
+  "Senegal": {
+    "abbreviation": "SN",
+    "aliases": [],
+    "independent": true,
+    "capital": "Dakar"
+  },
+  "Seychelles": {
+    "abbreviation": "SC",
+    "aliases": [],
+    "independent": true,
+    "capital": "Victoria"
+  },
+  "Sierra Leone": {
+    "abbreviation": "SL",
+    "aliases": [
+      "Salone"
+    ],
+    "independent": true,
+    "capital": "Freetown"
+  },
+  "Somalia": {
+    "abbreviation": "SO",
+    "aliases": [],
+    "independent": true,
+    "capital": "Mogadishu"
+  },
+  "South Africa": {
+    "abbreviation": "SA",
+    "aliases": [
+      "RSA"
+    ],
+    "independent": true,
+    "capital": "Cape Town"
+  },
+  "South Sudan": {
+    "abbreviation": "SS",
+    "aliases": [],
+    "independent": true,
+    "capital": "Juba"
+  },
+  "Sudan": {
+    "abbreviation": "SD",
+    "aliases": [
+      "The Sudan",
+      "Republic of the Sudan"
+    ],
+    "independent": true,
+    "capital": "Khartoum"
+  },
+  "Tanzania": {
+    "abbreviation": "TZ",
+    "aliases": [],
+    "independent": true,
+    "capital": "Dodoma"
+  },
+  "Togo": {
+    "abbreviation": "TG",
+    "aliases": [
+      "Togolese Republic"
+    ],
+    "independent": true,
+    "capital": "Lome"
+  },
+  "Tunisia": {
+    "abbreviation": "TN",
+    "aliases": [],
+    "independent": true,
+    "capital": "Tunis"
+  },
+  "Uganda": {
+    "abbreviation": "UG",
+    "aliases": [],
+    "independent": true,
+    "capital": "Kampala"
+  },
+  "Western Sahara": {
+    "abbreviation": "EH",
+    "aliases": [],
+    "independent": true,
+    "capital": "Al Aaiun"
+  },
+  "Zambia": {
+    "abbreviation": "ZM",
+    "aliases": [],
+    "independent": true,
+    "capital": "Lusaka"
+  },
+  "Zimbabwe": {
+    "abbreviation": "ZW",
+    "aliases": [],
+    "independent": true,
+    "capital": "Harare"
+  }
+}
