@@ -6,7 +6,7 @@
     "capital": "The Valley"
   },
   "Antigua and Barbuda": {
-    "abbreviation": "ag",
+    "abbreviation": "AG",
     "aliases": ["Antigua", "Barbuda"],
     "independent": true,
     "capital": "Saint John's"
@@ -216,10 +216,10 @@
     "capital": "Basseterre"
   },
   "Saint Lucia": {
-    "abbreviation": "Castries",
+    "abbreviation": "LC",
     "aliases": [],
     "independent": true,
-    "capital": "LC"
+    "capital": "Castries"
   },
   "Saint Martin": {
     "abbreviation": "MF",
