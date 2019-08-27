@@ -42,8 +42,25 @@ class CDSG
     false
   end
 
+  def capital_answer(state)
+    @data[state]['capital']
+  end
+
   def correct_capital?(guess, state)
     match_guess(guess, @data[state]['capital'])
+  end
+
+  def hint(answer, count = 1)
+    case count
+    when 1
+      answer.chars.each_with_index.map { |c,i| (c =~ /([A-Z]|-|'|\s)/) ? c : '*' }.join
+    when 2
+      answer.chars.each_with_index.map { |c,i| ( [0,4,8,12,16].any?(i) || c =~ /([A-Z]|-|'|\s)/) ? c : '*' }.join
+    when 3
+      answer.chars.each_with_index.map { |c,i| (i.even? || c =~ /([A-Z]|-|'|\s)/) ? c : '*' }.join
+    else
+      "All hints used for this guess!"
+    end
   end
 
   def quit?(str)
@@ -59,6 +76,7 @@ class CDSG
     puts ''
     puts "To stop the game manually, enter 'quit' or 'exit'"
     puts "To see your progress so far, enter 'progress'"
+    puts "To get a hint of the answer, enter 'hint' - you can do this up to 3 times per answer"
     puts "To skip to the next state, enter 'skip' or 'next'" if @capitals_mode
     puts '***************************************'
     puts ''
@@ -87,9 +105,10 @@ class CDSG
   def game_intro()
     puts "*** Beginning Chandler's Dumb States Game ***"
     puts "***** Region: #{@region.upcase} *****"
+    puts "********* HARD MODE *********" if @hard_mode
   end
 
-  def game_outro()
+  def game_outro(completed = false)
     puts ''
     puts '************* Game Finished *************'
     puts "Thank you for playing Chandler's dumb states game"
@@ -100,39 +119,64 @@ class CDSG
     else
       @data.each_key.to_a.select { |c| !@results.include?(c) }.each { |c| puts "- #{c.to_s.chomp}"}
     end
+    puts ("!!! Say hello to the new champ of Chandler's Dumb States Game !!!") if completed
     puts ('---------------------------------')
+    puts ('Please hit Enter to exit')
+    gets.chomp
+  end
+
+  def remaining_states()
+    @data.dup.delete_if { |k,v| @results.include?(k) }.each_key.to_a
   end
 
   def play()
     game_intro
     return play_capitals if @capitals_mode
     @results = Array.new
+    completed = false
+    hint_count = 0
     loop do
       puts ''
       guess = gets.chomp
       break if quit?(guess)
       next if game_progress(guess)
+      if guess =~ /[hH]int/
+        hint_count += 1
+        puts "* Hints Used: #{hint_count.to_s}"
+        puts ''
+        puts hint(remaining_states.shuffle.first, hint_count)
+      end
       result = correct_state?(guess)
       if result
         puts "* [CORRECT] --- #{result} *"
         @results << result
+        hint_count = 0
       else
         puts '* [INCORRECT] *'
       end
-      break if @results.size == @data.size
+      completed = true if @results.size == @data.size
+      break if completed
     end
-    game_outro
+    completed == true ? game_outro(true) : game_outro()
   end
 
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
     @results = Hash.new
+    hint_count = 0
     @data.each_key.to_a.select { |d| @data[d]['capital'] != '#' }.shuffle.each do |k|
       begin
         puts ''
         puts "What is the capital of #{k}?"
         guess = gets.chomp
         break if quit?(guess)
+        if guess =~ /[hH]int/
+          hint_count += 1
+          puts "* Hints Used: #{hint_count.to_s} *"
+          puts ''
+          puts hint(capital_answer(k), hint_count)
+          raise ''
+        end
         raise '' if game_progress(guess)
       rescue
         retry
@@ -144,6 +188,7 @@ class CDSG
       else
         puts "* [INCORRECT] --- The answer is #{@data[k]['capital']} *"
       end
+      hint_count = 0
     end
     game_outro
   end
