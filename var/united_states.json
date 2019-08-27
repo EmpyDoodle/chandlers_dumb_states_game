@@ -6,10 +6,16 @@
     "capital": "Montgomery"
   },
   "Alaska": {
-    "abbreviation": "AS",
+    "abbreviation": "AK",
     "aliases": [],
     "independent": true,
     "capital": "Juneau"
+  },
+  "American Samoa": {
+    "abbreviation": "AS",
+    "aliases": ["Samoa"],
+    "independent": false,
+    "capital": "Pago Pago"
   },
   "Arizona": {
     "abbreviation": "AZ",
@@ -64,6 +70,12 @@
     "aliases": [],
     "independent": true,
     "capital": "Atlanta"
+  },
+  "Guam": {
+    "abbreviation": "GU",
+    "aliases": [],
+    "independent": false,
+    "capital": "Hagatna"
   },
   "Hawaii": {
     "abbreviation": "HI",
@@ -209,6 +221,12 @@
     "independent": true,
     "capital": "Bismarck"
   },
+  "Northern Mariana Islands": {
+    "abbreviation": "MP",
+    "aliases": ["Mariana Islands"],
+    "independent": false,
+    "capital": "Saipan"
+  },
   "Ohio": {
     "abbreviation": "OH",
     "aliases": [],
@@ -232,6 +250,12 @@
     "aliases": [],
     "independent": true,
     "capital": "Harrisburg"
+  },
+  "Puerto Rico": {
+    "abbreviation": "PR",
+    "aliases": [],
+    "independent": false,
+    "capital": "San Juan"
   },
   "Rhode Island": {
     "abbreviation": "RI",
@@ -262,6 +286,12 @@
     "aliases": [],
     "independent": true,
     "capital": "Austin"
+  },
+  "United States Virgin Islands": {
+    "abbreviation": "VI",
+    "aliases": ["US Virgin Islands", "Virgin Islands"],
+    "independent": false,
+    "capital": "Charlotte Amalie"
   },
   "Utah": {
     "abbreviation": "UT",
