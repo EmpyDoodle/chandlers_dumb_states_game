@@ -50,8 +50,17 @@ class CDSG
     match_guess(guess, @data[state]['capital'])
   end
 
-  def hint(answer)
-    answer.chars.each_with_index.map { |c,i| (i == 0 || i == ' ') ? c : '-' }.join
+  def hint(answer, count = 1)
+    case count
+    when 1
+      answer.chars.each_with_index.map { |c,i| (c =~ /([A-Z]|-|'|\s)/) ? c : '*' }.join
+    when 2
+      answer.chars.each_with_index.map { |c,i| ( [0,4,8,12,16].any?(i) || c =~ /([A-Z]|-|'|\s)/) ? c : '*' }.join
+    when 3
+      answer.chars.each_with_index.map { |c,i| (i.even? || c =~ /([A-Z]|-|'|\s)/) ? c : '*' }.join
+    else
+      "All hints used for this guess!"
+    end
   end
 
   def quit?(str)
@@ -67,6 +76,7 @@ class CDSG
     puts ''
     puts "To stop the game manually, enter 'quit' or 'exit'"
     puts "To see your progress so far, enter 'progress'"
+    puts "To get a hint of the answer, enter 'hint' - you can do this up to 3 times per answer"
     puts "To skip to the next state, enter 'skip' or 'next'" if @capitals_mode
     puts '***************************************'
     puts ''
@@ -124,16 +134,23 @@ class CDSG
     return play_capitals if @capitals_mode
     @results = Array.new
     completed = false
+    hint_count = 0
     loop do
       puts ''
       guess = gets.chomp
       break if quit?(guess)
       next if game_progress(guess)
-      puts hint(remaining_states.shuffle.first) if guess =~ /[hH]int/
+      if guess =~ /[hH]int/
+        hint_count += 1
+        puts "* Hints Used: #{hint_count.to_s}"
+        puts ''
+        puts hint(remaining_states.shuffle.first, hint_count)
+      end
       result = correct_state?(guess)
       if result
         puts "* [CORRECT] --- #{result} *"
         @results << result
+        hint_count = 0
       else
         puts '* [INCORRECT] *'
       end
@@ -146,6 +163,7 @@ class CDSG
   def play_capitals()
     puts '***** Playing in Capitals Mode *****'
     @results = Hash.new
+    hint_count = 0
     @data.each_key.to_a.select { |d| @data[d]['capital'] != '#' }.shuffle.each do |k|
       begin
         puts ''
@@ -153,7 +171,10 @@ class CDSG
         guess = gets.chomp
         break if quit?(guess)
         if guess =~ /[hH]int/
-          puts hint(capital_answer(k))
+          hint_count += 1
+          puts "* Hints Used: #{hint_count.to_s} *"
+          puts ''
+          puts hint(capital_answer(k), hint_count)
           raise ''
         end
         raise '' if game_progress(guess)
@@ -167,6 +188,7 @@ class CDSG
       else
         puts "* [INCORRECT] --- The answer is #{@data[k]['capital']} *"
       end
+      hint_count = 0
     end
     game_outro
   end
