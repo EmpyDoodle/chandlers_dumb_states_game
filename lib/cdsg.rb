@@ -74,9 +74,11 @@ class CDSG
     puts 'You will be told whether it is correct or not'
     puts 'When you reach the max answers, the game will stop'
     puts ''
-    puts "To stop the game manually, enter 'quit' or 'exit'"
-    puts "To see your progress so far, enter 'progress'"
-    puts "To get a hint of the answer, enter 'hint' - you can do this up to 3 times per answer"
+    puts "+ To stop the game manually, enter 'quit' or 'exit'"
+    puts "+ To see your progress so far, enter 'progress'"
+    puts "+ To get a hint of the answer, enter 'hint' - you can do this up to 3 times per answer"
+    puts "+ To see this help text again, enter ''"
+    puts ''
     puts "To skip to the next state, enter 'skip' or 'next'" if @capitals_mode
     puts '***************************************'
     puts ''
@@ -84,7 +86,7 @@ class CDSG
   end
 
   def game_progress(str)
-    return CDSG.help() if str =~ /\A([hH]|help)\z/
+    return CDSG.help() if str =~ /\A(\?|help)\z/
     if str =~ /\A(progress|results|answers)\z/
       puts ''
       puts ('------------ RESULTS ------------')
@@ -145,7 +147,7 @@ class CDSG
       guess = gets.chomp
       break if quit?(guess)
       next if game_progress(guess)
-      if guess =~ /[hH]int/
+      if guess =~ /\A([hH]|[hH]int)\z/
         hint_count += 1
         puts "* Hints Used: #{hint_count.to_s}"
         puts ''
@@ -175,7 +177,7 @@ class CDSG
         puts "What is the capital of #{k}?"
         guess = gets.chomp
         break if quit?(guess)
-        if guess =~ /[hH]int/
+        if guess =~ /\A([hH]|[hH]int)\z/
           hint_count += 1
           puts "* Hints Used: #{hint_count.to_s} *"
           puts ''
