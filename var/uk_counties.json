@@ -1,0 +1,756 @@
+{
+  "Aberdenshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Angus": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Antrim": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Argyll and Bute": {
+    "abbreviation": "#",
+    "aliases": [
+      "Argyll",
+      "Bute",
+      "Argyll & Bute"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Armagh": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Ayrshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Banffshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Bedfordshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Berkshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Berwickshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Blaenau Gwent": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Borders": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Bridgend": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Bristol": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Buckinghamshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Caerphilly": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Caithness": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Cambridgeshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Cardiff": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Carmarthenshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Ceredigion": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Cheshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "City of London": {
+    "abbreviation": "#",
+    "aliases": [
+      "London"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Clackmannanshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Conwy": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Cornwall": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Cumbria": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Denbighshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Derbyshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Devon": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Dorset": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Down": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Dumfries and Galloway": {
+    "abbreviation": "#",
+    "aliases": [
+      "Dumfries",
+      "Galloway",
+      "Dumfries & Galloway"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Dunbartonshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Durham": {
+    "abbreviation": "#",
+    "aliases": [
+      "County Durham"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "East Ayrshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Ayrshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "East Dunbartonshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Dunbartonshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "East Lothian": {
+    "abbreviation": "#",
+    "aliases": [
+      "Lothian"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "East Renfrewshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Renfrewshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "East Riding of Yorkshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "East Yorkshire",
+      "Yorkshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "East Sussex": {
+    "abbreviation": "#",
+    "aliases": [
+      "Sussex"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Essex": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Fermanagh": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Fife": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Flintshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Gloucestershire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Greater London": {
+    "abbreviation": "#",
+    "aliases": [
+      "London"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Greater Manchester": {
+    "abbreviation": "#",
+    "aliases": [
+      "Manchester"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Gwynedd": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Hampshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Herefordshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Highland": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Humberside": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Inverclyde": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Isle of Anglesey": {
+    "abbreviation": "#",
+    "aliases": [
+      "Anglesey"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Isle of Wight": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Isles of Scilly": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Kent": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Kincardineshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Lanarkshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Lancashire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Leicestershire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Lincolnshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Londonderry": {
+    "abbreviation": "#",
+    "aliases": [
+      "Derry"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Merseyside": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Merthyr Tydfil": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Middlesex": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Midlothian": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Monmouthshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Moray": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Neath Port Talbot": {
+    "abbreviation": "#",
+    "aliases": [
+      "Talbot",
+      "Port Talbot"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Newport": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Norfolk": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "North Ayrshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Ayrshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "North Lanarkshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Lanarkshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "North Somerset": {
+    "abbreviation": "#",
+    "aliases": [
+      "Somerset"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "North Yorkshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Yorkshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Northamptonshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Northumberland": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Nottinghamshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Orkney": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Oxfordshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Pembrokeshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Perth and Kinross": {
+    "abbreviation": "#",
+    "aliases": [
+      "Perth",
+      "Kinross",
+      "Perth & Kinross"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Powys": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Renfrewshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Rhondda Cynon Taff": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Rutland": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Shetland": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Shropshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Somerset": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "South Ayrshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Ayrshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "South Gloucestershire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Gloucestershire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "South Lanarkshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Lanarkshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "South Yorkshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Yorkshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Staffordshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Stirlingshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Suffolk": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Surrey": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Swansea": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Torfaen": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Tyne and Wear": {
+    "abbreviation": "#",
+    "aliases": [
+      "Tyne",
+      "Wear",
+      "Tyne & Wear"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Tyrone": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Vale of Glamorgan": {
+    "abbreviation": "#",
+    "aliases": [
+      "Glamorgan"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Warwickshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "West Dunbartonshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Dunbartonshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "West Lothian": {
+    "abbreviation": "#",
+    "aliases": [
+      "Lothian"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "West Midlands": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "West Sussex": {
+    "abbreviation": "#",
+    "aliases": [
+      "Sussex"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "West Yorkshire": {
+    "abbreviation": "#",
+    "aliases": [
+      "Yorkshire"
+    ],
+    "independent": true,
+    "capital": "#"
+  },
+  "Western Isles": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Wiltshire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Worcestershire": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  },
+  "Wrexham": {
+    "abbreviation": "#",
+    "aliases": [],
+    "independent": true,
+    "capital": "#"
+  }
+}

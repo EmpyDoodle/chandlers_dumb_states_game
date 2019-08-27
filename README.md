@@ -10,3 +10,4 @@ Information gleamed from various sources, namely Wikipedia:-
 + Ocenia: https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_Oceania
 + N America: https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_North_America
 + S America: https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_South_America
++ UK Counties: https://www.jamesharding.net/list-of-uk-counties/
