@@ -6,7 +6,7 @@ $app_root = File.expand_path('..', File.dirname(__FILE__))
 
 class CDSG
 
- attr_accessor :results
+ attr_accessor :results, :app_root, :config, :data, :region, :capitals_mode, :hard_mode
 
   def initialize(region, capitals = false, hard = false)
     @app_root = $app_root
@@ -105,7 +105,12 @@ class CDSG
   def game_intro()
     puts "*** Beginning Chandler's Dumb States Game ***"
     puts "***** Region: #{@region.upcase} *****"
-    puts "********* HARD MODE *********" if @hard_mode
+    puts '********* HARD MODE *********' if @hard_mode
+    if @capitals_mode && @config['game_modes'][@region]['capitals_mode'] == false
+      puts ''
+      puts "!!! Capitals Mode unavailable for region: #{@region} - playing normally !!!"
+      @capitals_mode = false
+    end
   end
 
   def game_outro(completed = false)
