@@ -77,7 +77,7 @@ class CDSG
     puts "+ To stop the game manually, enter 'quit' or 'exit'"
     puts "+ To see your progress so far, enter 'progress'"
     puts "+ To get a hint of the answer, enter 'hint' - you can do this up to 3 times per answer"
-    puts "+ To see this help text again, enter ''"
+    puts "+ To see this help text again, enter 'help'"
     puts ''
     puts "To skip to the next state, enter 'skip' or 'next'" if @capitals_mode
     puts '***************************************'
