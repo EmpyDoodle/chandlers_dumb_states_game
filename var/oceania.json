@@ -78,6 +78,12 @@
     "independent": false,
     "capital": "Honolulu"
   },
+  "Indonesia": {
+    "abbreviation": "ID",
+    "aliases": [],
+    "independent": true,
+    "capital": "Jakarta"
+  },
   "Kiribati": {
     "abbreviation": "KI",
     "aliases": [],
